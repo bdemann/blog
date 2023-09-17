@@ -1,0 +1,291 @@
+The following is a talk I gave in sacrament meeting today.
+
+# Spiritual Nourishment
+Today I will be speaking about spiritual nourishment, and I'll be drawing on
+President Faust's talk from October 2006[^the-talk] for inspiration.
+
+[^the-talk]: Here is President Faust's talk. It was in the [priesthood session
+of the October 2006
+conference](https://www.churchofjesuschrist.org/study/general-conference/2006/10/spiritual-nutrients?lang=eng)
+
+In his talk he shared a number of stories of people that found important
+spiritual nutrients as they followed the teachings of the Savior. Some of the
+nutrients he focused on were faith, repentance, building a testimony of Heavenly
+Father and Jesus Christ, and selfless service.
+
+Today instead of focusing on a prescribed list of things that we ought to do
+nourish our spirits, I want to look at some principles that I have found helpful
+for me in my own nutritional research[^disclaimer] that I think might be
+applicable to spiritual metabolism as well. I hope they will help you as you
+pick out the spiritual food you most need right now in your life.
+
+[^disclaimer]: I am not a qualified nutritionist, dietitian, or healthcare
+professional. The information and perspectives shared in this blog post are
+based solely on my personal experiences, research, and observations. They should
+not be considered as professional medical or nutritional advice. Nutrition is a
+complex and highly individualized subject, and what works for one person may not
+work for another. Before making any significant changes to your diet or
+lifestyle, it is essential to consult with a qualified healthcare provider or
+nutritionist who can assess your unique needs and provide personalized guidance.
+
+## Filled But Not Nourished
+President Packer once related a story that illustrated an important difference
+between eating and being nourished.
+
+"He talked about a severe winter in Utah when the snow was excessive and had
+driven the deer herds down very low into some of the valleys. Some of them were
+trapped by fences and circumstances as they were taken out of their natural
+habitat, and well-meaning, perfectly responsive, capable agencies tried to
+respond by feeding those deer to get them through the crisis of the winter. They
+brought in hay and dumped it everywhere; it was about as good as they could do
+under the circumstances. Later an immense number of those deer were found dead.
+The people who handled those animals afterward said that their stomachs were
+full of hay, but they had starved to death. They had been fed, but they had not
+been nourished." [^oh-deer] [^fact-check]
+
+[^oh-deer]: Liahona June 2007 [Teaching and Learning in the
+Church](https://www.churchofjesuschrist.org/study/liahona/2007/06/teaching-and-learning-in-the-church?lang=eng)
+
+[^fact-check]: I was curious about the validity of the story, so I did some
+research. I got conflicting answers about whether or not the story was true or
+even plausible, would deer actually die if they only ate hay? Yes, no, maybe? I
+heard it all. The best commentary on the story I heard came from Chat GPT who
+reminded me that regardless of the accuracy of the story the point is that it's
+a metaphor. So if you want a scenario that we can all agree will result in being
+filled with food but not nourished, we can just switch the deer and hay out for
+kids and candy. So imagine one winter a group of kids got trapped in a ravine
+and the locals decided to help get the kids through the winter by bringing in
+truck load of candy... Yeah... actually... lets stick with the deer metaphor.
+
+There are lots of things that we can do to fill our time that will not nourish
+our spirit.
+
+Just as the Word of Wisdom councils that there are things that "are not for the
+body, neither for the belly" there are things that are not for the spirit
+neither for the mind and we ought to strive to rid them from our lives: being
+dishonest, selfish, lustful, greedy, prideful etc. Likewise there are things
+that we ought to do only sparingly, and it is probably pleasing unto the Lord
+that they should not be done. For me that'd probably be playing Minecraft
+[^minecraft].
+
+[^minecraft]: I'm not saying video games are bad. The strongest argument I might
+make is that they are bad for me, but even then, I think they can be okay. I
+just have a hard time doing it in moderation, such that I find it easier to
+avoid it all together.
+
+I think we are all aware of the things that we ought never do, and the things
+that we should only occasionally do. I think the much harder question comes when
+we have to prioritize and balance all the things that we need to do. It's easy
+for me to be occupied in my life doing things that are okay, or even good. I
+need to work to provide for my family, and I don't think that God would want me
+to quit work so I could discuss the holy books with the learned men, several
+hours every day[^rich-man]. But I do think he wants us to make sure that we are
+taking time each day to prioritize our spiritual nourishment and focus on
+Christ. Working, cooking, eating, sleeping are all things that need to be done,
+but unless we find ways to supplement that with a prayer always in our hearts,
+scripture study, or acting in Christ-like love through selfless service, then
+it's easy for us to find ourselves ending up like those deer, filling our time,
+but not nourishing our spirits.
+
+[^rich-man]: But I think we call all agree with Tevye that that would be the
+sweetest thing of all
+
+## The Hospital Principle
+A couple years ago my wife and I found ourselves spending a week in the
+hospital, while we were there, we enjoyed taking advantage of the room service.
+The food was pretty good considering it was hospital food, but it wasn't the
+quality that impressed me; it was the variety. Each individual portion was not
+very exciting: one simple entree, a couple of sides and even a small dessert.
+All of them were individually not big, or fancy, but together they made a
+fulfilling meal. Each meal hit most of the food groups and ended with us feeling
+satisfied.
+
+We learned:
+- Simple sides can come together to make a complex whole.
+- For us, multiple smaller portions of various things felt more satisfying than
+one large portion of a single thing.
+- We could still have dessert with every meal and still be healthy if it is a
+reasonable amount.
+
+All of these lessons we have encapsulated into the term "The Hospital
+Principle," and I think that this nutritional principle can be applied to
+spiritual nutrition as well.
+
+There are a lot of nutrients that make up the spiritual food guide pyramid:
+
+- Prayer
+- Scripture study
+- Temple service
+- Church attendance
+- Family history
+- Service
+- Missionary work
+- Magnifying our callings
+- Listening to and reviewing General Conference
+- Developing Christ like attributes
+- Seeking spiritual gift
+- Helping our family learn and live the gospel
+- etc
+
+And then we still have to find time to work, run the household, and keep the
+children alive. And what about dessert?! When am I supposed to have time to play
+Minecraft, or watch a movie, or work on a hobby?
+
+Instead of trying to figure out one big fancy service project or an elaborate
+scripture study routine, it would be better, I think, to just take a little time
+each day to read the scriptures even if it's just a few minutes, then a little
+family history on Sunday, paired with a movie night for a family home evening
+activity. That seems like it has the beginnings of a fulfilling spiritual diet!
+It doesn't have to be everything all at once. Or one thing at the cost of all
+the others. A nice, measured approach with small simple portions of spiritual
+food, may help to leave you feeling more satisfied.
+
+
+## The More We Eat the More We Crave
+There is some research suggesting that the composition of bacteria in your gut,
+known as the gut microbiome, can influence your food cravings and preferences.
+Certain bacteria can thrive on specific types of food, and when they do, they
+may send signals to your brain that make you crave more of those foods. This
+connection between the gut microbiome and cravings is an active area of study in
+the field of nutrition and microbiology.
+
+I know very little about this, just what I have heard in the past and what I
+have gathered during the little bit of research for this talk. It seems like
+it's still a pretty young and unproven theory, but I think there are some
+helpful metaphors we can make anyways.
+
+In terms of literal nutrition some of the possible takeaways are
+
+- **Eat a diverse diet**: Consuming a wide variety of foods can promote a
+diverse gut microbiome. Different bacteria thrive on different types of
+nutrients, so diverse food choices can encourage a more balanced microbiome.
+- **Take advantage of Probiotics**: There are live beneficial bacteria found in
+foods like yogurt, kefir, and certain supplements. They can introduce specific
+strains of good bacteria into your gut.
+- **Avoid Overconsumption of Sugars and Processed Foods**: High-sugar and highly
+processed foods can lead to an overgrowth of less desirable gut bacteria.
+Reducing your intake of these foods may help shift your cravings towards
+healthier options.
+- **Gradual Changes**: Changing your diet and cravings is typically a gradual
+process. Give your body and gut microbiome time to adapt to new dietary
+patterns.
+- **Consult a Healthcare Professional**: If you're struggling with significant
+cravings or dietary changes, consider consulting a registered dietitian or
+healthcare professional who can provide personalized guidance based on your
+specific needs and health goals.
+
+Some possible spiritual parallels could be:
+
+- **Be anxiously engaged in good things**: This is part of the Hospital
+Principle. Don't worry so much about being perfect at everything but make sure
+you are trying to get a little bit of a lot of stuff.
+- **Take advantage of spirit packed activities**: Praying, repenting, renewing
+our covenants with God by partaking of the sacrament, are all great things to
+invite Christ into our lives. They are great spiritual probiotics that make sure
+our spiritual microbiome is flourishing!
+- **Avoid Overconsumption of time wasters**: Mind dulling activities can lead
+to decreased spiritual sensitivity and can cause you to continue to crave those
+mindless activities.
+- **Gradual Changes**: Changing your spiritual cravings is typically a gradual
+process. Focus on making small sustainable changes instead of trying to change
+everything all at once.
+- **Consult a Spiritual Professional**: The best consultant you can get for
+matters of the spirit is the Holy Spirit Himself. If you're struggling with
+spiritual changes, consider praying to God and seeking the guidance of the
+Spirit to figure out what the next best move is for you. The Lord has prepared
+many people to help out as well. Family, friends, leaders, and ministers.
+
+Over time as you make those small changes to your diet your cravings change.
+
+I've never had the displeasure of seeing inside someone's stomach much less had
+the ability to see or understand the whims of microbes, but I know that when I'm
+eating bad food, I want to keep eating it and it takes a few days of
+intentionally gnawing on carrots before I really start to enjoy carrots again.
+
+I have seen the same things in my life with other things. The more I play video
+games the more I want to keep playing. After a while it's a chore to pick up a
+book or switch to any other hobby.
+
+With food, if I want to switch out sugar for carrots, then I have to cut out the
+sweets and start gnawing on carrots, there's no way around it. But on the flip
+side, once you start consuming better things then you start craving those better
+things. It might take a few days of compelling myself to read but soon enough I
+can't put the book down. I can't say that I have ever actually gotten to this
+point with carrot but I have had people swear up and down that after cutting out
+sweets from their diet they could really start to taste the natural sugars in
+carrots and that they started to be sweet for them, I don't know if I could or
+even want to get to that point with carrots, but apparently it's an option.
+Unfortunately, I don't think there's another way to become a person that eats
+spiritual or literal carrots all day long except by slowly and steadily going
+though that transition.
+
+The most extreme version of this was on my mission. It was like doing a juice
+cleanse or a long fast. A few months in and all of a sudden General Conference
+was the most delicious thing and I couldn't get enough. I eagerly read all of
+the mission library and loved to spend as much time as I could reading the
+scripture. Like with carrots, I never really got super excited about knocking
+on doors, but I was more willing to do it then then I ever was before or since.
+
+My wife told me about a Youtuber[^Beau-Miles] who posts a lot of running and
+kayaking videos. He has a pretty strict diet that he sticks to. For one of his
+videos, he decided to try and eat like an average person. During the challenge
+he tried to continue to maintain his habit of running and he said something very
+impactful. He was noting how different he felt on the average person diet, and
+he said something to the effect of "all of a sudden I understand why people
+don't like running. If I felt like this every time I ran, I would also not run."
+I've accepted that I will likely never be disciplined enough to experience what
+he experienced firsthand, but it has often made me wonder about how big an
+impact the little things in our life make. I wonder if I was living a more
+disciplined life and was making sure that I was getting all the spiritual
+nutrients that I needed if slowly things would stop feeling like a chore and
+become more of a delight.
+
+[^Beau-Miles]: I couldn't figure out which video it came from, but I'm pretty
+sure it was something from [Beau Miles](https://www.youtube.com/@BeauMiles).
+Consequently that quote is likely nowhere near what he actually said... but
+that is the idea that has stuck in my mind all this time.
+
+## The Holy Ghost: Our Personal Nutritionist
+
+Remember that the Jesus Christ is our ultimate example in all things. His life
+and teachings are the ultimate spiritual dietary guide. He has left us with the
+Holy Ghost so whenever we need we can get personal guidance as we try to become
+like Him.
+
+Above all the "most important spiritual nutrient is a testimony that God
+is our Eternal Father, that Jesus is our Savior and Redeemer, and that the Holy
+Ghost is our Comforter. This testimony is confirmed to us by the gift of the
+Holy Ghost. From this testimony we derive the spiritual nutrients of faith and
+trust in God, which bring forth the blessings of heaven." [^the-talk]
+
+Without the Holy Ghost's impactful role in testifying of Jesus Christ we will
+never be able to get the full benefits of that spiritual nutrient.
+
+The Holy Ghost does more than just provide us with a testimony. He also is the
+source of personal revelation and can act as a personal guide in our decisions.
+We are not left alone to figure out what we need to do next. If we humbly ask
+God what changes we need to make to our spiritual diet, he will prompt us
+through the Holy Ghost to know what attainable change we ought to make next.
+[^what-lack-i-yet]
+
+[^what-lack-i-yet]: October 2015 General Conference. Elder Larry R Lawrence
+[What Lack I
+Yet?](https://www.churchofjesuschrist.org/study/general-conference/2015/10/what-lack-i-yet?lang=eng)
+
+The Holy Ghost can also help protect us from spiritual harm. If we listen to His
+promptings, He can help us avoid wasting time on unimportant things, or getting
+involved in spiritually dangerous activities that could damage our spiritual
+health.
+
+He is also the Comforter, so when we inevitably mess up, He can fill us with
+hope and help us overcome discouragement and keep going!
+
+## Feast Upon the Words of Christ
+I would be remiss if I talked about spiritual food and didn't quote Nephi,
+"Wherefore, I said unto you, feast upon the words of Christ; for behold, the
+words of Christ will tell you all things what ye should do."
+
+We develop faith in Christ as we feast upon his words and as we nourish our
+spirit by following his commandments! The words of Christ will tell us all
+things that we should do and as we follow Him, we will be spiritually nourished
+and satisfied. In the name of Jesus Christ, amen.
