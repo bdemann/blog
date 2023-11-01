@@ -1,0 +1,355 @@
+# Introduction to Book of Mormon Translation Theory
+### A Preface to Part Three of My Book or Mormon Translation Gospel Topics Essay Review
+
+The last two posts about the translation of the Book of Mormon were building up
+to this moment where I review John-Charles Duffy's[^john-charles-duffy] review
+of the Church's Gospel Topics Essay about the translation of the Book of Mormon.
+
+[^john-charles-duffy]: If you, like me, have never heard of John Charles Duffy
+before then you may want to read his bio that I pulled from *The LDS Gospel
+Topics Series*. "John Charles Duffy is an Assistant Teaching Professor in the
+Department of Comparative Religion at Miami University (Ohio), where he teaches
+courses on religion in  U.S. History and culture. Duffy received his PhD in
+Religious Studies from the University of North Carolina at Chapel Hill. He is
+the coauthor of *Mormonism: the Basics* (Routledge, 2016) and has published
+articles on Mormon Intellectual and cultural history in several venues."
+
+I was surprised that his essay focused mostly on the translation process and
+less on the translation tools. I feel like most of the controversy is
+surrounding the use of the Seer Stone. But in Duffy's essay he essentially says
+"Good job acknowledging the Seer Stone, but why didn't you talk more about the
+translation process." For those of you that, like myself, hadn't put much
+thought into that topic until now let me give you a quick overview of the
+theories for the translation process.
+
+## Mini Part 1
+
+As I stated in part one[^part-one] of this series, from what was in the Gospel
+Topics Essay, the only thing that felt like it contradicted what I learned
+growing up was the stuff about Seer Stone. Everything else was either perfectly
+consistent or seemed like new information that I had not heard about. Since I
+didn't really touch on translation theory I thought it might be good to talk
+about what I knew about translation theory before reading the Gospel Topics
+essay and Duffy's response essay.
+
+[^part-one]: Book of Mormon Translation
+https://www.bendemann.com/2023/07/book-of-mormon-translation.html
+
+The truth is I didn't know a lot about it before reading Duffy's essay. I didn't
+really think about it or consider any of the nuances to the translation process.
+After learning Spanish on my mission, I should have been more capable of
+thinking about it and formulating questions about it, but it wasn't anything I
+was curious about.
+
+I guess my naive thought on the matter was that Joseph Smith would look through
+the Urim and Thummim and see the literal translation of each word on the plates
+and there wasn't much work to do in the translation process beyond just knowing
+the translation of a particular word. But anyone that has ever tried to use
+Google Translate, especially in the early days, knows that there are a lot more
+things to consider in a translation than just the literal translation of each
+word individually. But like I said, I had never really put that much thought
+into it.
+
+I don't feel like the church ever made a big deal about it either. Mostly just
+the usual Urim & Thummim and "by the gift and power of God,"[^gift-and-power]
+and "it was not intended to tell the world all the particulars of the coming
+forth of the book of Mormon”[^not-intended], "study it out in your mind, then
+ask me if it be right, and if it is right... your bosom shall burn within you...
+but if it be not right... you shall have a stupor of thought" [^d&c-9]
+
+[^gift-and-power]: End of the Testimony of Joseph Smith in the Book of Mormon.
+It's not actually in the testimony of Joseph Smith, it's the part after just
+after where it says "For a more complete account, see Joseph Smith—History in
+the Pearl of Great Price."
+
+[^not-intended]: (“Minutes, Oct. 25–26, 1831,” in Minute Book 2, 13,
+josephsmithpapers.org).
+https://www.josephsmithpapers.org/paper-summary/minutes-25-26-october-1831/4
+
+[^d&c-9]: Doctrine and Covenants 9
+
+Consequently, I have always looked at translation theory[^at-least] more as an
+interesting side study where the answers didn't really matter one way or the
+other. [^trivia-all-the-way-down]
+
+[^at-least]: At least always since I started thinking about it
+
+[^trivia-all-the-way-down]: I mean, the Urim and Thummim vs Seer Stone debate
+answers also doesn't really matter that much (the people embroiled in that
+debate might think differently (Don't get me wrong, I have strong feelings about
+it, I really think it was just the Urim and Thummim, but I don't think that
+matters for your salvation)) but there seem to be faithful members on both sides
+of the debate so, whatever, but it does carry a certain level of controversy
+because the church seemed to have an official stance on it and then in recent
+years they have changed that official stance. But with the translation theory
+stuff that we are about to get into, I am not aware if the church has ever had
+an official stance on it. So it all feels like speculation and extra credit.
+
+Most of the time that I have seen someone bring up translation theory it has
+been to help explain away an anachronism or a grammatical error. For example,
+the first time I ever heard of the different possible translation methods was
+when I started reading Brant Gardner's *Traditions of the Fathers: The Book of
+Mormon As History* which talked about understanding how the Book of Mormon was
+translated was key to understanding how a lot of it ought to be interpreted in
+order to extract geographical or historical significance from the book. And at
+the time, I thought that getting into that level of detail was pretty esoteric.
+
+## A Brief Overview
+Before we get into it, one little caveat.
+
+I don't have a lot of good sources for this, I haven't done a very in depth
+research into the topic yet, so all I have is what I've picked up while looking
+into the Seer Stone. If you are interested in learning more I would recommend
+the first few chapters of Brant Gardner's book, the last few chapters of *By
+Means of the Urim & Thummim: Restoring Translation to the Restoration* or Royal
+Skousen's work on this subject, I don't know where he published his model that
+we will be looking at but it ought to be easy enough to find. And I think for
+this level of introduction that should be sources enough.
+
+So in the debate there are two different areas. One focuses on who translated
+the Book of Mormon and the other focuses on the translation ideology or paradigm
+used by whoever did the translation.
+
+## Who Translated the Book of Mormon?
+
+Basically the two (faithful) opinions on this are
+
+1. Joseph Smith translated it by the gift and power of God.
+
+2. God translated it and revealed the translation to Joseph Smith.
+
+Number 1 is how I had always envisioned it. I suppose I had never thought about
+the implication of that, but I think it still makes sense, or even makes more
+sense when you examine those implications.
+
+Number 2 feels to me that Joseph Smith is less a translator and more an inspired
+first reader of the Book of Mormon. I don't necessarily have any issue with
+that. And to some extent I think this had to be part of the process.
+
+This is where this Royal Skousen model comes in.
+
+He proposed three levels of control that God had over the translation of the
+Book of Mormon: Tight Control, Iron-clad control, and Loose Control.
+
+Tight control is like words would appear on the Seer Stone or Urim and Thummim
+and Joseph would read what was written.
+
+Iron-clad control is like that but if it wasn't written by the scribe 100%
+exactly as Joseph saw it, then the old words would remain and new words wouldn't
+appear until the scribe had corrected the mistake.
+
+I get the impression that he introduces the idea of Iron-clad control not
+because he thinks it's a viable theory, but because he thinks that most people,
+both critics and believers, usually think about it in this way and get
+uncomfortable or try and make people uncomfortable with the existence of
+grammatical or spelling errors in a divinely inspired text.
+
+Lose control would be like Joseph Smith receiving an impression of the meaning of
+the text or the most literal translation of the text (ie my naive assumption)
+and it was up to him to determine how to put that impression into words that his
+audience would best understand. He would study it out in his mind and heart and
+if it would be correct his bosom would burn and he would know it was correct. If
+it was not correct he would have a stupor of thought.
+
+This theory opens the door to all sorts of sub theories. If it were on a
+spectrum then the theories closer to tight control would include that God had
+kind of a target translation in mind and Joseph was studying out in his mind
+what that translation ought to be. On the other extreme we have that Joseph
+could be essentially quoting from books (whether the Bible or the works of
+Jonathan Edwards for example) that he was familiar [^familiar] with that he felt
+like conveyed the meaning behind the text he was translating. Somewhere in the
+middle leaves room for Joseph's lexicon to slip in either consciously or
+subconsciously. For example if I was doing the translation it would not be
+inconceivable for me to, even by accident, throw in a reference to the Prince
+Bride just because I have seen it so many times that the phrases sometimes just
+slip out of my mouth even if they don't mean what I think they mean.
+
+[^familiar]: I think most of the witnesses agree that Joseph didn't have any
+material besides the plates as reference, but that doesn't mean that he wasn't
+familiar enough with some passages of the bible or another book that he had read
+or had had read to him that he could pull parts or phrases from them to help him
+best express himself. I am **not** saying that Joseph Smith plagiarized or
+composed the Book of Mormon from his memory of books he had read. I'm just
+saying that the books that we as humans read have a way of influencing us and
+shaping the way we think, talk, and write. And if Joseph Smith is trying to
+communicate complex religious ideas and texts from an ancient extinct language
+that is being revealed to him in a divine fashion then it would make sense that
+those books might influence how he decided to translate it. I'm also not saying
+that I espouse all or any of the theories on the far side of loose control. Some
+of them are down right heretical. But some of them are very conceivable and
+would still leave the Book of Mormon as a divine translation of an actual
+historical document of actual historical people.
+
+It is my understanding that the prevailing theory among mainstream church
+historians, (especially those that espouse the Seer Stone model) is that it was
+a tight controlled translation where English words would appear on the Seer
+Stone or the Urim & Thummim and Joseph would read those words and the scribe
+would write them down, and barring any scribal errors, errors when creating the
+printers manuscript, or errors when doing the typesetting, the 1830 edition of
+the Book of Mormon is essentially what Joseph Smith saw on those stones.
+
+It seems that a lot of the accounts that talk about the Seer Stone being used
+also talk about how they worked, and they often include descriptions of words
+appearing on the stone, and Joseph needing to put the stone in the hat in order
+to block out the light so he could see the words, much like trying to look at
+your smartphone screen on a particularly sunny day.
+
+I think that the tight control theory goes hand in hand with the Seer Stone
+theory, I believe in large part because the same accounts back them up. I get
+the impression that the Urim and Thummim model works pretty well with either
+loose control or tight control.
+
+If the tight control theory is correct then any fixes or changes to the 1830s
+text, made by Joseph Smith in his day, or by Church leadership in our day would
+therefore be attempts to get rid of any of those scribal errors and get the text
+back to as close to how they fell from Joseph Smith's mouth in 1829.
+
+Loose control on the other hand might suggest that as Joseph Smith learned more
+about the English language or about the doctrine being taught in the Book or
+Mormon he might have made changes in the text to better reflect that increased
+understanding. I don't know what changes happened from the first edition in 1830
+to the second edition in 1837 or the third edition in 1840 but it would be
+interesting to look at them through that lens and see if they look more like
+Joseph correcting things to bring that into harmony with how he first spoke the
+words or if they look like him becoming a better translator through time.
+
+Of course there is nothing about loose control that would prevent the Book of
+Mormon from being essentially perfect after the first edition and the minor
+changes between versions were just Joseph trying to get them back to how he said
+it in the first place. But tight control would prohibit any modifications that
+weren't made in an effort to get closer to the original dictation.
+
+I like the idea of loose control, I think that it does a good job of reconciling
+some of the criticisms that people make against the Book of Mormon translation,
+I also feel like it more closely aligns with my experience of how God works with
+his children, (giving instructions, but letting His children use their agency to
+figure out how best to follow those instructions) but I don't feel incredibly
+strongly one way or the other.
+
+## How was the Book of Mormon Translated
+Next up, how was the Book of Mormon translated, or in other words, how closely
+does the translation match the original text and how do you define a close
+translation?
+
+### Formal vs Functional Equivalence
+
+In translation theory there are two different kinds of equivalence, formal and
+functional. Formal is about preserving the exact wording of the original text
+and that sometimes comes at the cost of getting the full depth of meaning in the
+target language. Functional equivalence is trying to make the meaning of the
+text the same in both the source language and the target language even if that
+means using different wording than in the original text.
+
+Here is a simple example:
+
+**Spanish Text:** "A medida que el sol se esconde detrás de las montañas, el
+pueblo se sumerge en la quietud de la noche, mientras las estrellas comienzan a
+brillar en el cielo."
+
+**Formal Equivalent (Word-for-Word):** "As the sun hides behind the mountains,
+the town plunges into the stillness of the night, while the stars start shining
+in the sky."
+
+**Functional Equivalent (Meaning-Based):** "As the sun sets behind the
+mountains, the town becomes enveloped in the tranquility of the night, and the
+stars begin to sparkle in the sky."
+
+Now imagine trying to translate a more complex thought like any sort of
+religious or spiritual teaching that is often hard enough to adequately express
+in the source language.
+
+Take for example Alma 32 where Alma compares faith to a seed.
+
+My wife this year leveled up her gardening skills and got some plants started
+from seed. She told me that it was really hard at first because she felt like an
+idiot going out every morning to water dirt. She had to keep reminding herself
+that there were seeds under that dirt, and she had to have faith that they were
+good seeds and that they hadn't already died. There were a lot of unknowns but
+she had to keep on watering or else she wouldn't know for sure, but as soon as
+they began to sprout, watering became more exciting. She still had to water, or
+else they would die. She said that the experience really gave her a new
+appreciation for the metaphor in Alma 32.
+
+This introduces another complexity to the translation process. Not only do you
+have to consider how the readers of one language might understand something but
+also how readers of culture or background understand things. My wife speaks
+English but didn't fully understand the metaphor until she had the appropriate
+experiences to go along with it. Since she doesn't have a background in farming
+a lot of the deeper meanings of Alma's metaphor were lost on her. There could be
+an argument made, if the Book of Mormon was translated today, that in order to
+best communicate Alma's teaching about faith that a different metaphor would be
+best[^brigham-young]. Would a comparison to using the Internet, better help
+those of our time understand the actual meaning of Alma's message, and if so
+would that deeper meaning be worth ditching the seed metaphor? Is it possible
+that that decision was made during the translation of the Book of Mormon? It
+seems likely that most of the people of Alma's time would have a lot more
+experience with farming than those of us on the other side of the industrial
+revolution, but also when talking about these poor people of Antionum it talks
+about not how they were working in the fields, but about how they had been the
+ones that crafted the synagogue with their own hands and yet were unable to
+worship inside. Could it be that these poor people were not farmers but rather
+builders? Could it be that Alma's original message compared faith to building a
+synagogue? Could it be that Joseph Smith or God decided that the people of
+Joseph Smith's time would understand Alma's message better with a farming
+metaphor? I'm guessing probably not, but who knows?
+
+[^brigham-young]: For example there is a quote from Brigham Young, that I can't
+find right now, and I want to get this out before October is over so I'm not
+going to spend any more time trying to find it, but basically he said that if
+the Book of Mormon were to be translated again it would be a different book. I
+don't know how different he had in mind, or even what the full context for the
+quote is, but I think the point is that the thing that is sacred about the Book
+of Mormon is the preservation of the sacred history and teachings of Christ and
+not the exact wording used to convey those things.
+
+Deciding to switch out the metaphor is an example of a functional translation,
+the words might be completely different, but if it better saved the meaning of
+the original message, maybe that is more important that saving the original
+wording. But also maybe not, maybe the original wording is more important. It
+seems to be that a lot of people value the authentic version, word for word as
+close to the original as possible, and for them that seems to mean a more formal
+translation but who's to say that's how God thinks, or how people in the 1830s
+thought.
+
+And that's only the tip of the iceberg.
+
+When God or Joseph Smith sat down and tried to figure out how to translate the
+Book of Mormon they had to take a few things into account. Is this going to be a
+formal equivalence or a functional one? What kind of English is the Book or
+Mormon going to be translated into? American English? British English? Modern
+English, Not so Modern English, English that is prim and proper? English that is
+down to earth and approachable? Should it sound like the Bible, or should it
+sound like how normal people speak? How much are metaphors and cultural
+expressions and forms going to be kept and how much are they going to be
+exchanged for expressions and forms that are more meaningful to the target
+reader? Chiasmus are cool, but would a reader of Joseph Smith's time appreciate
+those, or would some other poetic structure resonate better with them and help
+them feel the intent of the author? Or regardless of the answer to that
+question, is it better to stay as true to the exact wording of the original text
+as possible even if it doesn't really make sense to the target audience? But
+isn't that the point of a translation to make the text make sense to the target
+audience? And unfortunately, since we don't have access to the original text, we
+have no idea how God or Joseph Smith's decision on this matter affected the
+translation besides any little hints that they left behind. And even then there
+are a lot of different ways to interpret hints.
+
+So going back to Royal Skousen's model of Loose vs Tight control. If you ask
+control over what? A lot of the answer is going to be whether the Book of Mormon
+had a formal or a functional translation?
+
+## All together on a grid
+Imagine these two questions on a grid. On one axis is how formal vs functional
+is the translation. On the other grid there is how much control did Joseph Smith
+have over the translation vs how much control did God have over the translation?
+I think that truth doesn't lie at a single point on that grid, I'm guessing it
+covers an area. I would imagine that at some points God had a pretty particular
+view for how the translation needed to be and so he helped guide Joseph to that
+very particular translation. I think that other times God trusted Joseph to make
+a good call on how to translate. So if Joseph felt like one way of phasing
+something would best convey the meaning then I'm guessing that God would let him
+do that. I'm guessing that at times a more formal equivalence was in order and
+other times a more functional equivalence was needed to really help convey the
+original intent of the message. That theory is made based purely off of gut
+feeling and my understanding of how God typically communicates with His
+children. I don't really know and I don't think we will ever really know until
+we can ask either Joseph Smith or God Himself.
