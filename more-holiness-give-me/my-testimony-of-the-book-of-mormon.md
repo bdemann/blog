@@ -1,0 +1,35 @@
+# My Testimony
+
+As you read through all of my blog, I hope it becomes apparent where I stand on
+everything. However, just in case, I want to make it crystal clear where I stand
+and what I believe.
+
+I believe that the Book of Mormon is the word of God. By "word of God," I mean
+that I believe it teaches true and correct principles. By following its
+teachings, we draw closer to God, just as we would by following the words of God
+given to us through any prophet, whether ancient or modern. I believe the Book
+of Mormon is a translation of an actual ancient record. I believe that Nephi,
+Mormon, Moroni, and all the people in between were real individuals, and the
+Book of Mormon is a genuine history of those people. I believe that Joseph Smith
+was directed to the plates by Moroni and translated them through the gift and
+power of God. The Book of Mormon came forth just as Joseph Smith said it did.
+
+I believe that the Church is led by honest men who are trying their best to live
+honorable lives. It is their intention to guide the members of the Church to
+live lives in harmony with the teachings of Christ. I believe they **know** that
+the Church is true. They are sincere followers of Christ and special witnesses
+of His divinity and reality. They are the only ones holding all the keys to
+guide and direct the Church. It would be foolish for anyone to take their
+counsel lightly, even if it is based only on personal experience and opinion,
+and especially if it comes through them in their roles as prophets, seers, and
+revelators.
+
+I believe that Joseph Smith was a prophet called of God, and I believe that
+Brigham Young is his authorized successor. I believe that the line of priesthood
+keys flows unbroken from them to President Nelson.
+
+Most importantly, I believe in Jesus Christ. The above beliefs are important
+because they help us understand Jesus Christ and His divine role in helping us
+draw closer to God. I believe that Jesus Christ is the Son of God, that he
+lived, died, and was resurrected. I testify of these things in His Holy Name,
+Amen.
