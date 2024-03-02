@@ -1,0 +1,58 @@
+# True Origins of the Book of Mormon Revealed
+
+Joseph Smith occasionally would meet with an old man that lived near Joseph’s
+home[^written-not-far-from-that-place]. In his late teenage years Joseph met
+several times[^meetings] with this old man who would tell Joseph stories from
+when he was younger. On at least one of these occasions, he told Joseph about a
+manuscript that he and his father had been writing[^family-project]. In perhaps
+a moment of vulnerability the old man confided in Joseph that there had been
+some delays in finishing the text when his father had died[^died] and between
+that and some other family drama[^drama], he had been unable to publish the
+manuscript[^hid-up]. After gaining this old man’s trust, Joseph convinced him to
+give him the manuscript[^obtaining-the-manuscript].
+
+[^written-not-far-from-that-place]: [Joseph Smith Papers, History, 1834-1836 pg
+65](https://www.josephsmithpapers.org/paper-summary/history-1834-1836/69)
+
+[^meetings]: [JS-H 1: 53-54](https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng)
+
+[^family-project]: [JS-H 1:34](https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng)
+
+[^died]: [Mormon 8:1-3](https://www.churchofjesuschrist.org/study/scriptures/bofm/morm/8?lang=eng)
+
+[^drama]: [Moroni 1](https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/1?lang=eng)
+
+[^hid-up]: [Moroni 8:4](https://www.churchofjesuschrist.org/study/scriptures/bofm/morm/8?lang=eng)
+
+[^obtaining-the-manuscript]: [JS-H 1:59](https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng)
+
+In one account, Joseph showed the old man’s manuscript to a group of his family
+members and close associates, including his father and two of his brothers, and
+confided in them that he had essentially just copied the text for the Book of
+Mormon from the manuscript[^eight-witnesses].
+
+[^eight-witnesses]: [Testimony of the Eight
+Witnesses](https://www.churchofjesuschrist.org/study/scriptures/bofm/eight?lang=eng)
+
+At least three other people claimed that they knew the old man and that he had
+also shown them the manuscript that he had written[^three-witnesses]. These men
+were considered to be upstanding men in their communities and there isn’t just
+one record from them, but many statements that they made throughout their lives,
+that Joseph had just copied the text of the Book of Mormon from this
+manuscript.[^never-renounced]
+
+[^three-witnesses]: [Testimony of the Three
+Witnesses](https://www.churchofjesuschrist.org/study/scriptures/bofm/three?lang=eng)
+
+[^never-renounced]: [Witnesses of the Book or Mormon](https://www.churchofjesuschrist.org/study/history/topics/witnesses-of-the-book-of-mormon?lang=eng) - especially the last two paragraphs
+
+In a death bed interview Emma confessed to finding the manuscript hidden,
+wrapped in a tablecloth to try and conceal the true origins of the Book of
+Mormon[^emma].
+
+[^emma]: [Last Testimony of Sister
+Emma](https://rsc.byu.edu/sites/default/files/pub_content/pdf/testimony%20of%20emma%20smith.pdf)
+
+Not long after the Book of Mormon was published the old man was never heard from
+again. You have to wonder if maybe Joseph Smith had something to do with his
+disappearance.
