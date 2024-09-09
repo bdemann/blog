@@ -6,9 +6,19 @@ import Seo from "../components/seo";
 const AboutPage = () => {
     return (
         <Layout pageTitle="About Me">
+            <p>Hi there!</p>
+            <h2>Disclaimer</h2>
             <p>
-                Hi there! I'm the proud creator of this site, which I built with
-                Gatsby.
+                The views expressed in this blog are solely those of the author
+                and do not necessarily reflect the official views or positions
+                of The Church of Jesus Christ of Latter-day Saints. This blog is
+                a personal endeavor, and the author's opinions, interpretations,
+                and understandings are subject to their own individual
+                perspective and study. Readers should be aware that the author's
+                views may differ from official church teachings, doctrines, or
+                policies. For official information and resources regarding the
+                LDS Church, please refer to the official church website or
+                consult with local church leaders.
             </p>
         </Layout>
     );
