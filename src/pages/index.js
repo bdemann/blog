@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 
 import Layout from "../components/layout";
 import Seo from "../components/seo";
+import Fonts from "../components/fonts";
 
 const IndexPage = () => {
     const [videoMetadata, setVideoMetadata] = useState(null);
@@ -51,6 +52,11 @@ const IndexPage = () => {
     );
 };
 
-export const Head = () => <Seo title="Home Page"></Seo>;
+export const Head = () => (
+    <>
+        <Seo title="Home Page"></Seo>
+        <Fonts></Fonts>
+    </>
+);
 
 export default IndexPage;

@@ -3,6 +3,7 @@ import * as React from "react";
 
 import Layout from "../../components/layout";
 import Seo from "../../components/seo";
+import Fonts from "../../components/fonts";
 
 const BlogPage = ({ data }) => {
     return (
@@ -36,6 +37,11 @@ export const query = graphql`
     }
 `;
 
-export const Head = () => <Seo title="MyBlog Posts" />;
+export const Head = () => (
+    <>
+        <Seo title="Blog"></Seo>
+        <Fonts></Fonts>
+    </>
+);
 
 export default BlogPage;

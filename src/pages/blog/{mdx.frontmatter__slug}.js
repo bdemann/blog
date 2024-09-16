@@ -3,6 +3,7 @@ import { graphql } from "gatsby";
 
 import Layout from "../../components/layout";
 import Seo from "../../components/seo";
+import Fonts from "../../components/fonts";
 
 const BlogPost = ({ data, children }) => {
     return (
@@ -24,6 +25,11 @@ export const query = graphql`
     }
 `;
 
-export const Head = ({ data }) => <Seo title={data.mdx.frontmatter.title} />;
+export const Head = ({ data }) => (
+    <>
+        <Seo title={data.mdx.frontmatter.title} />
+        <Fonts></Fonts>
+    </>
+);
 
 export default BlogPost;
