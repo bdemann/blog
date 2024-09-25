@@ -58,13 +58,21 @@
 }
 
 .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px; /* Space between tags */
+    margin-top: 1rem;
+}
 
+.tag {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 0.4rem 0.8rem;
+    border-radius: 16px;
+    font-size: 0.875rem;
+    font-weight: 500;
 }
 
 .related-articles {
-
-}
-
-.about {
 
 }

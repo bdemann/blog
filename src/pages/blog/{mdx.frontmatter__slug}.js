@@ -16,8 +16,8 @@ import {
     postContainer,
     sideBar,
     tags,
+    tag,
     relatedArticles,
-    about,
 } from "./blob-page.module.css";
 import About from "../../components/about";
 
@@ -34,7 +34,11 @@ const BlogPost = ({ data, children }) => {
                 <div className={sideBar}>
                     <hr />
                     <div className={tags}>
-                        Church Satire{data.mdx.frontmatter.tags}
+                        {data.mdx.frontmatter.tags.map((tagName, index) => (
+                            <span key={index} className={tag}>
+                                {tagName}
+                            </span>
+                        ))}
                     </div>
                     <hr />
                     <div className={relatedArticles}>
@@ -55,6 +59,7 @@ export const query = graphql`
             frontmatter {
                 title
                 date(formatString: "MMMM D, YYYY")
+                tags
             }
         }
     }

@@ -2,7 +2,14 @@
 title: "Book of Mormon and DNA Studies Part I"
 date: "2023-08-30"
 slug: "the-lds-gospel-topics-series/dna-and-the-book-of-mormon"
-tags: ["church"]
+tags:
+    [
+        "Church",
+        "Apologetics",
+        "Book of Mormon",
+        "Gospel Topics Essays",
+        "Book Review",
+    ]
 ---
 
 Off the bat, I feel like this one doesn't really fit into the same theme of
