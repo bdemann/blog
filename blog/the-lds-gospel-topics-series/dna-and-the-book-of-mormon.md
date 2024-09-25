@@ -5,8 +5,6 @@ slug: "the-lds-gospel-topics-series/dna-and-the-book-of-mormon"
 tags: ["church"]
 ---
 
-# Book of Mormon and DNA Studies Part One
-
 Off the bat, I feel like this one doesn't really fit into the same theme of
 answering the question, "Is the church hiding stuff?" So I'm going to approach
 this topic a little differently. For part one, I'll try to go through what I

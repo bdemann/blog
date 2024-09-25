@@ -1,22 +1,22 @@
 /* src/styles/global.css */
 a:link, a:visited {
-    color: #d6b372;
+    color: #a39065;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Times New Roman', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-weight: 400;
   font-style: normal;
+  color: #ccc5a7
 }
 
 /* Apply styles to everything else */
 body, p, span, a, div {
-  font-family: 'Times New Roman', serif;
+  font-family: 'Baskervville', serif;
   font-optical-sizing: auto;
   font-weight: 400; /* Replace with your desired weight */
   font-style: normal;
-  font-variation-settings: "wdth" 100;
-  color: rgb(196, 180, 157);
+  color: #ccae99;
 }
 
 html, body, #___gatsby, #gatsby-focus-wrapper {
@@ -25,4 +25,8 @@ html, body, #___gatsby, #gatsby-focus-wrapper {
     padding: 0;
     box-sizing: border-box;
     background-color: #3a2c21;
+
+    background-color: #2e2b26; /* Deep brown background */
+    color: #ccae99; /* Light earthy text color */
+    font-family: 'Baskervville', serif; /* A serif font for a classic look */
 }

@@ -1,14 +1,14 @@
 .container {
     margin: auto;
-    max-width: 1000px;
-    background-color: #34322d;
+    max-width: 1200px;
+    background-color: #171717; /* Subtle texture-like background */
     overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    padding: 15px;
 }
 
 .innerHeader {
     display: flex;
-    border: 2px solid rgb(109, 13, 0);
-    border-radius: 5px;
     padding-left: 32px;
     flex-direction: row;
     justify-content: space-between;
@@ -16,16 +16,18 @@
 }
 
 .header {
-    border: 2px solid rgb(109, 13, 0);
-    border-radius: 5px;
-    margin: 10px;
+    border: 2px solid #571a11;
     padding: 5px;
+}
+.header h1 {
+    color: #eae7dc; /* Light text for the logo/title
+    /*font-family: 'Playfair Display', serif; /* Ornate serif for elegance */
+    font-size: 3em;
 }
 .main-container {
     padding: 10px;
-    margin: 10px;
-    border: 2px solid rgb(109, 13, 0);
-    border-radius: 5px;
+    border: 2px solid #571a11;
+    border-top: 0;
 }
 .heading {
     color: gray;
@@ -40,6 +42,9 @@
 }
 .nav-link-text {
     color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
 }
 
 .site-title {
