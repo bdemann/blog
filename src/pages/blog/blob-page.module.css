@@ -10,7 +10,7 @@
     margin: 0 1rem;
 }
 
-hr {
+.date-container hr {
     border: none;
     border-top: 1px solid #dcd2b4;
     width: 50px;
@@ -29,4 +29,42 @@ hr {
     font-weight: normal;
     margin: 0;
     text-align: center;
+}
+
+.post-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.post {
+    order: 2;
+    max-width: 1000px;
+}
+
+.side-bar {
+    order: 1;
+    min-width: 275px;
+    padding-right: 30px;
+}
+
+@media (max-width: 768px) {
+    .post-container {
+        flex-direction: column;
+    }
+.side-bar {
+    order: 3
+}
+}
+
+.tags {
+
+}
+
+.related-articles {
+
+}
+
+.about {
+
 }

@@ -1,5 +1,6 @@
 import * as React from "react";
 import { graphql } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 
 import Layout from "../../components/layout";
 import Seo from "../../components/seo";
@@ -11,7 +12,14 @@ import {
     rightLine,
     date,
     title,
+    post,
+    postContainer,
+    sideBar,
+    tags,
+    relatedArticles,
+    about,
 } from "./blob-page.module.css";
+import About from "../../components/about";
 
 const BlogPost = ({ data, children }) => {
     return (
@@ -22,7 +30,21 @@ const BlogPost = ({ data, children }) => {
                 <span className={date}>{data.mdx.frontmatter.date}</span>
                 <hr className={rightLine} />
             </div>
-            {children}
+            <div className={postContainer}>
+                <div className={sideBar}>
+                    <hr />
+                    <div className={tags}>
+                        Church Satire{data.mdx.frontmatter.tags}
+                    </div>
+                    <hr />
+                    <div className={relatedArticles}>
+                        <a href="www.bendemann.com">This one</a>
+                    </div>
+                    <hr />
+                    <About text="hello">Hello</About>
+                </div>
+                <div className={post}>{children}</div>
+            </div>
         </Layout>
     );
 };
