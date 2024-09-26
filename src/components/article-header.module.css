@@ -1,0 +1,32 @@
+.date-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.date {
+    font-size: 1rem;
+    margin: 0 1rem;
+}
+
+.date-container hr {
+    border: none;
+    border-top: 1px solid #dcd2b4;
+    width: 50px;
+}
+
+.left-line {
+    margin-right: 10px;
+}
+
+.right-line {
+    margin-left: 10px;
+}
+
+.title {
+        font-size: 2.5rem;
+    font-weight: normal;
+    margin: 0;
+    text-align: center;
+}

@@ -1,17 +1,11 @@
 import * as React from "react";
-import { graphql, navigate } from "gatsby";
-import { StaticImage } from "gatsby-plugin-image";
+import { graphql, Link, navigate } from "gatsby";
 
 import Layout from "../../components/layout";
 import Seo from "../../components/seo";
 import Fonts from "../../components/fonts";
 
 import {
-    dateContainer,
-    leftLine,
-    rightLine,
-    date,
-    title,
     post,
     postContainer,
     sideBar,
@@ -20,27 +14,33 @@ import {
     relatedArticles,
 } from "./blob-page.module.css";
 import About from "../../components/about";
+import ArticleHeader from "../../components/article-header";
 
 const BlogPost = ({ data, children }) => {
     return (
         <Layout pageTitle={data.mdx.frontmatter.title}>
-            <h1 className={title}>{data.mdx.frontmatter.title}</h1>
-            <div className={dateContainer}>
-                <hr className={leftLine} />
-                <span className={date}>{data.mdx.frontmatter.date}</span>
-                <hr className={rightLine} />
-            </div>
+            <ArticleHeader
+                title={data.mdx.frontmatter.title}
+                date={data.mdx.frontmatter.date}
+            ></ArticleHeader>
             <div className={postContainer}>
                 <div className={sideBar}>
                     <hr />
+                    <h3>Tags</h3>
                     <div className={tags}>
                         {data.mdx.frontmatter.tags.map((tagName, index) => (
-                            <span key={index} className={tag}>
+                            <span
+                                key={index}
+                                className={tag}
+                                onClick={() => navigate(`/tags/${tagName}`)}
+                            >
                                 {tagName}
                             </span>
                         ))}
                     </div>
+                    <Link to="/tags">All Tags</Link>
                     <hr />
+                    <h3>Related</h3>
                     <div className={relatedArticles}>
                         {data.mdx.frontmatter.related.map((related, index) => (
                             <>
