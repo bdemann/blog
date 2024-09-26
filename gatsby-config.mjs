@@ -27,6 +27,19 @@ const config = {
       resolve: 'gatsby-source-filesystem',
       options: {name: 'blog', path: `${__dirname}/blog`}
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: 'The Benjamin DeMann Blog',
+        short_name: 'DeBlog',
+        start_url: '/',
+        background_color: '#171717',
+        theme_color: '#171717',
+        display: 'standalone',
+        icon: 'src/images/book.png',
+        crossOrigin: `use-credentials`,
+      },
+    },
   ],
 };
 

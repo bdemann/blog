@@ -1,6 +1,4 @@
-import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
-import { useEffect, useState } from "react";
 import { Link, graphql } from "gatsby";
 
 import Layout from "../components/layout";

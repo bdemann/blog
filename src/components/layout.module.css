@@ -28,6 +28,7 @@
     padding: 10px;
     border: 2px solid #571a11;
     border-top: 0;
+    border-bottom: 0;
 }
 .heading {
     color: gray;
@@ -51,4 +52,23 @@
     font-size: 3rem;
     color: gray;
     font-weight: 700;
+}
+
+.footer {
+    border: 2px solid #571a11;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.footerImage {
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+.footerTitle {
+    margin: 0;
 }
