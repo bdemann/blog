@@ -1,5 +1,5 @@
 import * as React from "react";
-import { graphql } from "gatsby";
+import { graphql, navigate } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 
 import Layout from "../../components/layout";
@@ -42,7 +42,18 @@ const BlogPost = ({ data, children }) => {
                     </div>
                     <hr />
                     <div className={relatedArticles}>
-                        <a href="www.bendemann.com">This one</a>
+                        {data.mdx.frontmatter.related.map((related, index) => (
+                            <>
+                                <div
+                                    href=""
+                                    onClick={() =>
+                                        navigate(`/blog/${related.slug}`)
+                                    }
+                                >
+                                    {related.title}
+                                </div>
+                            </>
+                        ))}
                     </div>
                     <hr />
                     <About text="hello">Hello</About>
@@ -60,6 +71,10 @@ export const query = graphql`
                 title
                 date(formatString: "MMMM D, YYYY")
                 tags
+                related {
+                    slug
+                    title
+                }
             }
         }
     }

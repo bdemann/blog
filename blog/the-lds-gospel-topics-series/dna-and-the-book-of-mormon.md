@@ -2,6 +2,7 @@
 title: "Book of Mormon and DNA Studies Part I"
 date: "2023-08-30"
 slug: "the-lds-gospel-topics-series/dna-and-the-book-of-mormon"
+related: []
 tags:
     [
         "Church",
