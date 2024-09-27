@@ -15,12 +15,9 @@ const BlogPage = ({ data }) => {
                         title={node.frontmatter.title}
                         date={node.frontmatter.date}
                         excerpt={node.excerpt}
+                        to={`/blog/${node.frontmatter.slug}`}
                     ></Book>
-                    <Link to={node.frontmatter.slug}>
-                        <h2>{node.frontmatter.title}</h2>
-                    </Link>
-                    <p>Posted: {node.frontmatter.date}</p>
-                    <p>{node.excerpt}</p>
+                    <br></br>
                 </article>
             ))}
         </Layout>

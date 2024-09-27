@@ -15,10 +15,11 @@ import {
     emptyWrapper,
     secondFlourish,
 } from "./book.module.css";
+import { navigate } from "gatsby";
 
-const Book = ({ title, date, excerpt }) => {
+const Book = ({ title, date, excerpt, to }) => {
     return (
-        <div className={spine}>
+        <div className={spine} onClick={() => navigate(to)}>
             <div className={firstFlourish}>
                 <Flourish2 />
             </div>
