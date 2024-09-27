@@ -1,12 +1,28 @@
 .spine {
-    background-color: #2e2b26;
-    background-image: linear-gradient(to bottom, #2e2b26, #403c34, #2e2b26);
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 5px;
     height: 230px; /* Ensure spine has a fixed height for children to inherit from */
     cursor: pointer;
+    overflow: hidden;
+}
+
+.brown {
+    background-color: #2e2b26;
+    background-image: linear-gradient(to bottom, #2e2b26, #403c34, #2e2b26);
+}
+.blue {
+    background-color: #2e2b26;
+    background-image: linear-gradient(to bottom, #0e0e21, #151633, #0e0e21);
+}
+.green {
+    background-color: #163314;
+    background-image: linear-gradient(to bottom, #0f210e, #173315, #0f210e);
+}
+.red {
+    background-color: #2e2b26;
+    background-image: linear-gradient(to bottom, #210e0e, #331515, #210e0e);
 }
 
 .first-flourish svg {

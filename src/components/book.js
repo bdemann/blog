@@ -14,12 +14,26 @@ import {
     empty,
     emptyWrapper,
     secondFlourish,
+    green,
+    brown,
+    blue,
+    red,
 } from "./book.module.css";
+
 import { navigate } from "gatsby";
 
-const Book = ({ title, date, excerpt, to }) => {
+const colors = {
+    green: green,
+    blue: blue,
+    brown: brown,
+    red: red,
+};
+
+const Book = ({ title, date, excerpt, to, color }) => {
+    const colorClass = colors[color] ?? brown;
+
     return (
-        <div className={spine} onClick={() => navigate(to)}>
+        <div className={`${spine} ${colorClass}`} onClick={() => navigate(to)}>
             <div className={firstFlourish}>
                 <Flourish2 />
             </div>
