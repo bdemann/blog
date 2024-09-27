@@ -2,6 +2,10 @@ import * as React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import Flourish2 from "./fourishes/flourish2";
 import Flourish2Half from "./fourishes/flourish2Half";
+import Flourish3 from "./fourishes/flourish3";
+import Flourish3Half from "./fourishes/flourish3Half";
+import Flourish4 from "./fourishes/flourish4";
+import Flourish4Half from "./fourishes/flourish4Half";
 
 import {
     spine,
@@ -23,19 +27,21 @@ import {
 import { navigate } from "gatsby";
 
 const colors = {
-    green: green,
-    blue: blue,
-    brown: brown,
-    red: red,
+    green: { color: green, flourish: [Flourish3, Flourish3Half] },
+    blue: { color: blue, flourish: [Flourish4, Flourish4Half] },
+    brown: { color: brown, flourish: [Flourish2, Flourish2Half] },
+    red: { color: red, flourish: [Flourish3, Flourish3Half] },
 };
 
 const Book = ({ title, date, excerpt, to, color }) => {
-    const colorClass = colors[color] ?? brown;
+    const colorClass = colors[color].color ?? brown;
+    const [FlourishComponent, FlourishHalfComponent] = colors[color]
+        ?.flourish || [Flourish2, Flourish2Half];
 
     return (
         <div className={`${spine} ${colorClass}`} onClick={() => navigate(to)}>
             <div className={firstFlourish}>
-                <Flourish2 />
+                <FlourishComponent />
             </div>
             <div className={dateWrapper}>
                 <div className={dateLabel}>{date}</div>
@@ -48,7 +54,7 @@ const Book = ({ title, date, excerpt, to, color }) => {
                 <div className={empty}>{""}</div>
             </div>
             <div className={secondFlourish}>
-                <Flourish2Half />
+                <FlourishHalfComponent />{" "}
             </div>
         </div>
     );
