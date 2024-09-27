@@ -4,7 +4,67 @@
     justify-content: center;
     padding: 5px;
     height: 230px; /* Ensure spine has a fixed height for children to inherit from */
-    overflow: hidden;
+}
+
+@media (min-width: 768px) {
+    .brown {
+        background-image: linear-gradient(to bottom, #2e2b26, #403c34, #2e2b26);
+    }
+    .blue {
+        background-image: linear-gradient(to bottom, #0e0e21, #151633, #0e0e21);
+    }
+    .green {
+        background-image: linear-gradient(to bottom, #0f210e, #173315, #0f210e);
+    }
+    .red {
+        background-image: linear-gradient(to bottom, #210e0e, #331515, #210e0e);
+    }
+    .first-flourish svg {
+        height: 95%;
+    }
+
+    .date-label {
+        border-left: 1px solid #c8ae46;
+        border-right: 1px solid #c8ae46;
+        background-color: black;
+        background-image: linear-gradient(to bottom, #000, #121212, #000);
+        color: #c8ae46;
+        width: 50px;
+        writing-mode: vertical-rl;
+        text-orientation: sideways;
+        transform: rotate(180deg);
+        padding: 10px;
+        display: flex;
+        justify-content: center; /* Horizontally center */
+        align-items: center; /* Vertically center */
+        font-size: large;
+    }
+
+    .date-wrapper {
+        display: flex; /* Enable Flexbox so the date-label can stretch vertically */
+        align-items: stretch; /* Stretch the .date-label to match the full height */
+        border-left: 1px solid #c8ae46;
+        border-right: 1px solid #c8ae46;
+        padding: 0 15px;
+        height: 100%;
+    }
+
+    .empty-wrapper {
+        border-left: 1px solid #c8ae46;
+        border-right: 1px solid #c8ae46;
+        padding: 0 15px;
+    }
+
+    .empty {
+        border-left: 1px solid #c8ae46;
+        border-right: 1px solid #c8ae46;
+        width: 50px;
+        height: 100%;
+    }
+
+    .second-flourish svg {
+        height: 95%;
+    }
 }
 
 .book-link {
@@ -13,49 +73,15 @@
 
 .brown {
     background-color: #2e2b26;
-    background-image: linear-gradient(to bottom, #2e2b26, #403c34, #2e2b26);
 }
 .blue {
-    background-color: #2e2b26;
-    background-image: linear-gradient(to bottom, #0e0e21, #151633, #0e0e21);
+    background-color: #0e0e21;
 }
 .green {
     background-color: #163314;
-    background-image: linear-gradient(to bottom, #0f210e, #173315, #0f210e);
 }
 .red {
-    background-color: #2e2b26;
-    background-image: linear-gradient(to bottom, #210e0e, #331515, #210e0e);
-}
-
-.first-flourish svg {
-    height: 95%;
-}
-
-.date-label {
-    border-left: 1px solid #c8ae46;
-    border-right: 1px solid #c8ae46;
-    background-color: black;
-    background-image: linear-gradient(to bottom, #000, #121212, #000);
-    color: #c8ae46;
-    width: 50px;
-    writing-mode: vertical-rl;
-    text-orientation: sideways;
-    transform: rotate(180deg);
-    padding: 10px;
-    display: flex;
-    justify-content: center; /* Horizontally center */
-    align-items: center; /* Vertically center */
-    font-size: large;
-}
-
-.date-wrapper {
-    display: flex; /* Enable Flexbox so the date-label can stretch vertically */
-    align-items: stretch; /* Stretch the .date-label to match the full height */
-    border-left: 1px solid #c8ae46;
-    border-right: 1px solid #c8ae46;
-    padding: 0 15px;
-    height: 100%;
+    background-color: #210e0e;
 }
 
 .info {
@@ -63,30 +89,15 @@
     max-width: 700px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
 }
 
 .post-title {
     font-size: xx-large;
+    margin: 0;
 }
 
 .post-excerpt {
-}
-
-.empty-wrapper {
-    border-left: 1px solid #c8ae46;
-    border-right: 1px solid #c8ae46;
-    padding: 0 15px;
-}
-
-.empty {
-    border-left: 1px solid #c8ae46;
-    border-right: 1px solid #c8ae46;
-    width: 50px;
-    height: 100%;
-}
-
-.second-flourish svg {
-    height: 95%;
+    overflow: hidden;
 }

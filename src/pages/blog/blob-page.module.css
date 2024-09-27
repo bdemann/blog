@@ -19,9 +19,9 @@
     .post-container {
         flex-direction: column;
     }
-.side-bar {
-    order: 3
-}
+    .side-bar {
+        order: 3;
+    }
 }
 
 .tags {
