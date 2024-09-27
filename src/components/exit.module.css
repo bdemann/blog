@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+    .closeButton {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        font-size: 30px;
+        color: #a39065;
+        cursor: pointer;
+        display: block; /* Make sure the close button is visible */
+    }
+}
+
+@media (min-width: 769px) {
+    .closeButton {
+        display: none; /* Hide the close button on larger screens */
+    }
+}

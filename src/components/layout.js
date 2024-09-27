@@ -1,5 +1,5 @@
 import { graphql, Link, useStaticQuery } from "gatsby";
-import * as React from "react";
+import React, { useState } from "react";
 import { StaticImage } from "gatsby-plugin-image";
 
 import {
@@ -16,9 +16,17 @@ import {
     mainContainer,
     topPadding,
     footer,
+    navContainer,
+    showNavContainer,
+    navContainerStart,
+    navContainerEnd,
 } from "./layout.module.css";
+import Hamburger from "./hamburger";
+import Exit from "./exit";
 
 const Layout = ({ pageTitle, children }) => {
+    const [menuOpen, setMenuOpen] = useState(false);
+
     const data = useStaticQuery(graphql`
         query {
             site {
@@ -33,41 +41,39 @@ const Layout = ({ pageTitle, children }) => {
         <div className={container}>
             <header className={header}>
                 <div className={innerHeader}>
-                    <nav>
-                        <ul className={navLinks}>
-                            <li className={navLinkItem}>
-                                <Link to="/" className={navLinkText}>
-                                    Home
-                                </Link>
-                            </li>
-                            <li className={navLinkItem}>
-                                <Link to="/about" className={navLinkText}>
-                                    About
-                                </Link>
-                            </li>
-                        </ul>
+                    <nav
+                        className={`${navContainer} ${navContainerStart} ${
+                            menuOpen ? showNavContainer : ""
+                        }`}
+                    >
+                        <Link to="/" className={navLinkText}>
+                            Home
+                        </Link>
+                        <Link to="/about" className={navLinkText}>
+                            About
+                        </Link>
                     </nav>
                     <h1 className={siteTitle}>
                         {data.site.siteMetadata.title}
                     </h1>
-                    <nav>
-                        <ul className={navLinks}>
-                            <li className={navLinkItem}>
-                                <Link to="/blog" className={navLinkText}>
-                                    Blog
-                                </Link>
-                            </li>
-                            <li className={navLinkItem}>
-                                <a
-                                    href="https://zarahemlapress.com/"
-                                    className={navLinkText}
-                                >
-                                    Store
-                                </a>
-                            </li>
-                        </ul>
+                    <nav
+                        className={`${navContainer} ${navContainerEnd} ${
+                            menuOpen ? showNavContainer : ""
+                        }`}
+                    >
+                        <Link to="/blog" className={navLinkText}>
+                            Blog
+                        </Link>
+                        <a
+                            href="https://zarahemlapress.com/"
+                            className={navLinkText}
+                        >
+                            Store
+                        </a>
                     </nav>
+                    <Hamburger openMenu={() => setMenuOpen(true)} />
                 </div>
+                <Exit closeMenu={() => setMenuOpen(false)} />
             </header>
             <main className={mainContainer}>{children}</main>
             <footer className={footer}>
