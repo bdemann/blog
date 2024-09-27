@@ -4,8 +4,11 @@
     justify-content: center;
     padding: 5px;
     height: 230px; /* Ensure spine has a fixed height for children to inherit from */
-    cursor: pointer;
     overflow: hidden;
+}
+
+.book-link {
+    text-decoration: none;
 }
 
 .brown {

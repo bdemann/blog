@@ -22,9 +22,10 @@ import {
     brown,
     blue,
     red,
+    bookLink,
 } from "./book.module.css";
 
-import { navigate } from "gatsby";
+import { Link, navigate } from "gatsby";
 
 const colors = {
     green: { color: green, flourish: [Flourish3, Flourish3Half] },
@@ -39,24 +40,26 @@ const Book = ({ title, date, excerpt, to, color }) => {
         ?.flourish || [Flourish2, Flourish2Half];
 
     return (
-        <div className={`${spine} ${colorClass}`} onClick={() => navigate(to)}>
-            <div className={firstFlourish}>
-                <FlourishComponent />
+        <Link className={bookLink} to={to}>
+            <div className={`${spine} ${colorClass}`}>
+                <div className={firstFlourish}>
+                    <FlourishComponent />
+                </div>
+                <div className={dateWrapper}>
+                    <div className={dateLabel}>{date}</div>
+                </div>
+                <div className={info}>
+                    <h2 className={postTitle}>{title}</h2>
+                    <p className={postExcerpt}>{excerpt}</p>
+                </div>
+                <div className={emptyWrapper}>
+                    <div className={empty}>{""}</div>
+                </div>
+                <div className={secondFlourish}>
+                    <FlourishHalfComponent />{" "}
+                </div>
             </div>
-            <div className={dateWrapper}>
-                <div className={dateLabel}>{date}</div>
-            </div>
-            <div className={info}>
-                <h2 className={postTitle}>{title}</h2>
-                <p className={postExcerpt}>{excerpt}</p>
-            </div>
-            <div className={emptyWrapper}>
-                <div className={empty}>{""}</div>
-            </div>
-            <div className={secondFlourish}>
-                <FlourishHalfComponent />{" "}
-            </div>
-        </div>
+        </Link>
     );
 };
 
