@@ -39,8 +39,8 @@ const config = {
         icon: 'src/images/book.png',
         icons: [
           {
-            src: `src/images/book.png`,
-            sizes: `2048x2048`,
+            src: `src/images/book-maskable.png`,
+            sizes: `2880x2880`,
             type: `image/png`,
             purpose: `maskable`,
           },
