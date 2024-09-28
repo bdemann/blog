@@ -2,6 +2,7 @@ import { graphql, Link, useStaticQuery } from "gatsby";
 import React, { useState } from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import {
+    footerLinks,
     footerImage,
     footerTitle,
     container,
@@ -111,6 +112,23 @@ const Layout = ({ pageTitle, children }) => {
                     alt="author"
                     src="../images/book.png"
                 />
+                <div className={footerLinks}>
+                    <Link to="/about" className={navLink}>
+                        About
+                    </Link>
+                    <Link to="/disclaimer" className={navLink}>
+                        Disclaimer
+                    </Link>
+                    <Link to="/use-of-ai" className={navLink}>
+                        Use of AI
+                    </Link>
+                    <Link to="https://zarahemlapress.com/" className={navLink}>
+                        Store
+                    </Link>
+                    <Link to="/tags" className={navLink}>
+                        All Tags
+                    </Link>
+                </div>
                 <div>
                     <h4 className={footerTitle}>The Benjamin DeMann Blog</h4>
                     Reach out on X:{" "}

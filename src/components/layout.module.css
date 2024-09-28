@@ -55,10 +55,21 @@
     border-radius: 5px;
     width: 100px;
     height: 100px;
-    margin-right: 20px;
 }
 .footerTitle {
     margin: 0;
+}
+.footer-links {
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100px;
+}
+.footer-links > * {
+    margin-left: 20px;
+    margin-bottom: 5px;
+    padding: none;
 }
 
 /* Nav */
@@ -66,7 +77,10 @@
     color: black;
     text-decoration: none;
     font-weight: bold;
-    padding: 10px;
+}
+
+.nav-container > .nav-link {
+    margin: 30px;
 }
 
 .nav-container {
