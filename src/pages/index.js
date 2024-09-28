@@ -17,6 +17,7 @@ const IndexPage = ({ data }) => {
                 title={mostRecentArticle.frontmatter.title}
                 date={mostRecentArticle.frontmatter.date}
             />
+            <p>{mostRecentArticle.excerpt}</p>
             <Link to={`/blog/${mostRecentArticle.frontmatter.slug}`}>
                 Read More
             </Link>
