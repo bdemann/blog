@@ -16,8 +16,7 @@ const IndexPage = ({ data }) => {
             <ArticleHeader
                 title={mostRecentArticle.frontmatter.title}
                 date={mostRecentArticle.frontmatter.date}
-            ></ArticleHeader>
-            <p>{mostRecentArticle.excerpt}</p>
+            />
             <Link to={`/blog/${mostRecentArticle.frontmatter.slug}`}>
                 Read More
             </Link>
@@ -27,8 +26,8 @@ const IndexPage = ({ data }) => {
 
 export const Head = () => (
     <>
-        <Seo title="Home Page"></Seo>
-        <Fonts></Fonts>
+        <Seo title="Home Page" />
+        <Fonts />
     </>
 );
 
@@ -41,7 +40,7 @@ export const query = graphql`
                 frontmatter {
                     title
                     slug
-                    date(formatString: "MMMM, D, YYYY")
+                    date(formatString: "MMMM D, YYYY")
                     related {
                         slug
                         title

@@ -53,12 +53,9 @@ const Layout = ({ pageTitle, children }) => {
                         <Link to="/blog" className={navLink}>
                             Blog
                         </Link>
-                        <a
-                            href="https://zarahemlapress.com/"
-                            className={navLink}
-                        >
-                            Store
-                        </a>
+                        <Link to="/gallery" className={navLink}>
+                            Gallery
+                        </Link>
                     </nav>
                     <Hamburger openMenu={() => setMenuOpen(true)} />
                 </div>
@@ -94,11 +91,11 @@ const Layout = ({ pageTitle, children }) => {
                                 Blog
                             </NavLink>
                             <NavLink
-                                to="https://zarahemlapress.com/"
+                                to="/gallery"
                                 className={navLink}
                                 callback={() => setMenuOpen(false)}
                             >
-                                Store
+                                Gallery
                             </NavLink>
                         </nav>
                     </div>
