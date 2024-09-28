@@ -1,28 +1,24 @@
 import { graphql, Link, useStaticQuery } from "gatsby";
 import React, { useState } from "react";
 import { StaticImage } from "gatsby-plugin-image";
-
 import {
     footerImage,
     footerTitle,
     container,
-    heading,
-    navLinkItem,
-    navLinks,
-    navLinkText,
+    navLink,
     siteTitle,
     header,
     innerHeader,
     mainContainer,
-    topPadding,
     footer,
     navContainer,
-    showNavContainer,
-    navContainerStart,
-    navContainerEnd,
+    fullScreenMenu,
+    overlay,
+    hamburgerMenuOpen,
 } from "./layout.module.css";
 import Hamburger from "./hamburger";
 import Exit from "./exit";
+import NavLink from "./nav-link";
 
 const Layout = ({ pageTitle, children }) => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -41,39 +37,71 @@ const Layout = ({ pageTitle, children }) => {
         <div className={container}>
             <header className={header}>
                 <div className={innerHeader}>
-                    <nav
-                        className={`${navContainer} ${navContainerStart} ${
-                            menuOpen ? showNavContainer : ""
-                        }`}
-                    >
-                        <Link to="/" className={navLinkText}>
+                    <nav className={navContainer}>
+                        <Link to="/" className={navLink}>
                             Home
                         </Link>
-                        <Link to="/about" className={navLinkText}>
+                        <Link to="/about" className={navLink}>
                             About
                         </Link>
                     </nav>
                     <h1 className={siteTitle}>
                         {data.site.siteMetadata.title}
                     </h1>
-                    <nav
-                        className={`${navContainer} ${navContainerEnd} ${
-                            menuOpen ? showNavContainer : ""
-                        }`}
-                    >
-                        <Link to="/blog" className={navLinkText}>
+                    <nav className={navContainer}>
+                        <Link to="/blog" className={navLink}>
                             Blog
                         </Link>
                         <a
                             href="https://zarahemlapress.com/"
-                            className={navLinkText}
+                            className={navLink}
                         >
                             Store
                         </a>
                     </nav>
                     <Hamburger openMenu={() => setMenuOpen(true)} />
                 </div>
-                <Exit closeMenu={() => setMenuOpen(false)} />
+
+                {/* Full-screen mobile menu */}
+                {menuOpen && (
+                    <div className={fullScreenMenu}>
+                        <div
+                            className={overlay}
+                            onClick={() => setMenuOpen(false)}
+                        />
+                        <nav className={hamburgerMenuOpen}>
+                            <Exit closeMenu={() => setMenuOpen(false)} />
+                            <NavLink
+                                to="/"
+                                className={navLink}
+                                callback={() => setMenuOpen(false)}
+                            >
+                                Home
+                            </NavLink>
+                            <NavLink
+                                to="/about"
+                                className={navLink}
+                                callback={() => setMenuOpen(false)}
+                            >
+                                About
+                            </NavLink>
+                            <NavLink
+                                to="/blog"
+                                className={navLink}
+                                callback={() => setMenuOpen(false)}
+                            >
+                                Blog
+                            </NavLink>
+                            <NavLink
+                                to="https://zarahemlapress.com/"
+                                className={navLink}
+                                callback={() => setMenuOpen(false)}
+                            >
+                                Store
+                            </NavLink>
+                        </nav>
+                    </div>
+                )}
             </header>
             <main className={mainContainer}>{children}</main>
             <footer className={footer}>
