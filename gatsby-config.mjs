@@ -37,6 +37,14 @@ const config = {
         theme_color: '#171717',
         display: 'standalone',
         icon: 'src/images/book.png',
+        icons: [
+          {
+            src: `src/images/book.png`,
+            sizes: `2048x2048`,
+            type: `image/png`,
+            purpose: `any maskable`,
+          },
+        ],
         crossOrigin: `use-credentials`,
       },
     },
