@@ -38,7 +38,9 @@ const BlogPost = ({ data, children }) => {
                             </span>
                         ))}
                     </div>
-                    <Link to="/tags">All Tags</Link>
+                    <p>
+                        <Link to="/tags">All Tags</Link>
+                    </p>
                     {data.mdx.frontmatter.related &&
                         data.mdx.frontmatter.related.length > 0 && (
                             <>
@@ -63,7 +65,7 @@ const BlogPost = ({ data, children }) => {
                             </>
                         )}
                     <hr />
-                    <About text="hello">Hello</About>
+                    <About />
                 </div>
                 <div className={post}>{children}</div>
             </div>
