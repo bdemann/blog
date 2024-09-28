@@ -1,5 +1,4 @@
 import * as React from "react";
-import { StaticImage } from "gatsby-plugin-image";
 import Flourish2 from "./fourishes/flourish2";
 import Flourish2Half from "./fourishes/flourish2Half";
 import Flourish3 from "./fourishes/flourish3";
@@ -25,7 +24,7 @@ import {
     bookLink,
 } from "./book.module.css";
 
-import { Link, navigate } from "gatsby";
+import { Link } from "gatsby";
 
 const colors = {
     green: { color: green, flourish: [Flourish3, Flourish3Half] },
