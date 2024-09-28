@@ -42,7 +42,7 @@ const config = {
             src: `src/images/book.png`,
             sizes: `2048x2048`,
             type: `image/png`,
-            purpose: `any maskable`,
+            purpose: `maskable`,
           },
         ],
         crossOrigin: `use-credentials`,
