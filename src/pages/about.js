@@ -1,15 +1,23 @@
 import * as React from "react";
 import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 
 import Layout from "../components/layout";
 import Seo from "../components/seo";
 import Fonts from "../components/fonts";
 import { pageHeader } from "../styles/common.module.css";
+import { image } from "./about.module.css";
 
 const AboutPage = () => {
     return (
         <Layout pageTitle="About Me">
             <h1 className={pageHeader}>About Me</h1>
+
+            <StaticImage
+                className={image}
+                alt="author"
+                src="../images/portrait.png"
+            />
             <p>
                 I was born and raised in The Church of Jesus Christ of
                 Latter-day Saints, and my faith has been the cornerstone of my

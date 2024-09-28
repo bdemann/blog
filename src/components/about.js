@@ -8,7 +8,6 @@ const About = () => {
         <div className={container}>
             <StaticImage
                 className={image}
-                width="150px"
                 alt="author"
                 src="../images/portrait.png"
             />
