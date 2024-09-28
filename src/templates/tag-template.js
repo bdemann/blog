@@ -1,6 +1,10 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
+import Book from "../components/book";
+import Seo from "../components/seo";
+import Fonts from "../components/fonts";
+import { pageHeader } from "../styles/common.module.css";
 
 const TagTemplate = ({ data, pageContext }) => {
     const { tag } = pageContext;
@@ -9,14 +13,21 @@ const TagTemplate = ({ data, pageContext }) => {
     return (
         <Layout>
             <div>
-                <h1>Posts tagged with "{tag}"</h1>
+                <h1 className={pageHeader}>Posts tagged with "{tag}"</h1>
                 <ul>
                     {posts.map(({ node }) => (
-                        <li key={node.id}>
-                            <Link to={`/blog/${node.frontmatter.slug}`}>
-                                {node.frontmatter.title}
-                            </Link>
-                        </li>
+                        <>
+                            <article key={node.id}>
+                                <Book
+                                    title={node.frontmatter.title}
+                                    date={node.frontmatter.date}
+                                    excerpt={node.excerpt}
+                                    to={`/blog/${node.frontmatter.slug}`}
+                                    color={node.frontmatter.color ?? "brown"}
+                                ></Book>
+                                <br></br>
+                            </article>
+                        </>
                     ))}
                 </ul>
             </div>
@@ -29,15 +40,25 @@ export const query = graphql`
         allMdx(filter: { frontmatter: { tags: { in: [$tag] } } }) {
             edges {
                 node {
+                    excerpt(pruneLength: 500)
                     id
                     frontmatter {
-                        slug
+                        date(formatString: "MMMM D, YYYY")
                         title
+                        slug
+                        color
                     }
                 }
             }
         }
     }
 `;
+
+export const Head = () => (
+    <>
+        <Seo title="Tags"></Seo>
+        <Fonts></Fonts>
+    </>
+);
 
 export default TagTemplate;

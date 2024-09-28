@@ -1,6 +1,9 @@
 import React from "react";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/layout";
+import Seo from "../components/seo";
+import Fonts from "../components/fonts";
+import { pageHeader } from "../styles/common.module.css";
 
 const TagsPage = ({ data }) => {
     const tags = data.allMdx.group;
@@ -8,7 +11,7 @@ const TagsPage = ({ data }) => {
     return (
         <Layout>
             <div>
-                <h1>Tags</h1>
+                <h1 className={pageHeader}>All Tags</h1>
                 <ul>
                     {tags.map((tag) => (
                         <li key={tag.fieldValue}>
@@ -33,5 +36,12 @@ export const query = graphql`
         }
     }
 `;
+
+export const Head = () => (
+    <>
+        <Seo title="All Tags"></Seo>
+        <Fonts></Fonts>
+    </>
+);
 
 export default TagsPage;

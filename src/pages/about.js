@@ -3,10 +3,13 @@ import * as React from "react";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
 import Fonts from "../components/fonts";
+import { pageHeader } from "../styles/common.module.css";
 
 const AboutPage = () => {
     return (
         <Layout pageTitle="About Me">
+            <h1 className={pageHeader}>About</h1>
+            <h2>About Me</h2>
             <p>
                 I was born and raised in The Church of Jesus Christ of
                 Latter-day Saints, and my faith has been the cornerstone of my

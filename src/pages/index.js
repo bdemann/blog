@@ -5,20 +5,21 @@ import Layout from "../components/layout";
 import Seo from "../components/seo";
 import Fonts from "../components/fonts";
 import ArticleHeader from "../components/article-header";
+import { pageHeader } from "../styles/common.module.css";
 
 const IndexPage = ({ data }) => {
     const mostRecentArticle = data.allMdx.nodes[0];
 
     return (
         <Layout pageTitle="Home Page">
-            <h2>Most Recent</h2>
+            <h1 className={pageHeader}>Most Recent</h1>
             <ArticleHeader
                 title={mostRecentArticle.frontmatter.title}
                 date={mostRecentArticle.frontmatter.date}
             ></ArticleHeader>
             <p>{mostRecentArticle.excerpt}</p>
             <Link to={`/blog/${mostRecentArticle.frontmatter.slug}`}>
-                <h2>Read More</h2>
+                Read More
             </Link>
         </Layout>
     );

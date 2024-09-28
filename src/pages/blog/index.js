@@ -6,9 +6,12 @@ import Seo from "../../components/seo";
 import Fonts from "../../components/fonts";
 import Book from "../../components/book";
 
+import { pageHeader } from "../../styles/common.module.css";
+
 const BlogPage = ({ data }) => {
     return (
         <Layout pageTitle="My Blog Posts">
+            <h1 className={pageHeader}>All Articles</h1>
             {data.allMdx.nodes.map((node) => (
                 <article key={node.id}>
                     <Book
