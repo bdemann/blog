@@ -12,7 +12,7 @@ const AboutPage = () => {
             <p>
                 AI has become a valuable tool in helping me bring my creative
                 ideas to life, especially when it comes to visual design and web
-                development. For artwork, I often use MidJourney to generate
+                development. For artwork, I often use Midjourney to generate
                 background images, which I then refine further in Photoshop and
                 enhance with graphic design elements in Illustrator. For
                 example, in my series of travel posters, while the background
@@ -49,7 +49,7 @@ const AboutPage = () => {
             </p>
             <p>
                 Unless otherwise specified, any images you see included in my
-                blog posts are generated using MidJourney.
+                blog posts are generated using Midjourney.
             </p>
         </Layout>
     );

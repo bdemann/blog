@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "gatsby";
 
 import Layout from "../components/layout";
 import Seo from "../components/seo";
@@ -62,6 +63,14 @@ const AboutPage = () => {
                 hope you’ll find here not just reassurance, but a reminder that
                 the journey of faith is one of learning and discovery. There’s
                 always more to see, more to know, and more to believe.
+            </p>
+            <p>
+                You might also find it helpful to understand this{" "}
+                <Link to="/disclaimer">disclaimer</Link> and{" "}
+                <Link to="/use-of-ai">
+                    my use of AI while making this blog and my art
+                </Link>
+                .
             </p>
         </Layout>
     );
