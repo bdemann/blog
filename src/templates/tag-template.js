@@ -14,22 +14,18 @@ const TagTemplate = ({ data, pageContext }) => {
         <Layout>
             <div>
                 <h1 className={pageHeader}>Posts tagged with "{tag}"</h1>
-                <ul>
-                    {posts.map(({ node }) => (
-                        <>
-                            <article key={node.id}>
-                                <Book
-                                    title={node.frontmatter.title}
-                                    date={node.frontmatter.date}
-                                    excerpt={node.excerpt}
-                                    to={`/blog/${node.frontmatter.slug}`}
-                                    color={node.frontmatter.color ?? "brown"}
-                                ></Book>
-                                <br></br>
-                            </article>
-                        </>
-                    ))}
-                </ul>
+                {posts.map(({ node }) => (
+                    <article key={node.id}>
+                        <Book
+                            title={node.frontmatter.title}
+                            date={node.frontmatter.date}
+                            excerpt={node.excerpt}
+                            to={`/blog/${node.frontmatter.slug}`}
+                            color={node.frontmatter.color ?? "brown"}
+                        ></Book>
+                        <br></br>
+                    </article>
+                ))}
             </div>
         </Layout>
     );

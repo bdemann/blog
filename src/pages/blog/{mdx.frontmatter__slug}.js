@@ -39,22 +39,29 @@ const BlogPost = ({ data, children }) => {
                         ))}
                     </div>
                     <Link to="/tags">All Tags</Link>
-                    <hr />
-                    <h3>Related</h3>
-                    <div className={relatedArticles}>
-                        {data.mdx.frontmatter.related.map((related, index) => (
+                    {data.mdx.frontmatter.related &&
+                        data.mdx.frontmatter.related.length > 0 && (
                             <>
-                                <div
-                                    href=""
-                                    onClick={() =>
-                                        navigate(`/blog/${related.slug}`)
-                                    }
-                                >
-                                    {related.title}
+                                <hr />
+                                <h3>Related</h3>
+                                <div className={relatedArticles}>
+                                    {data.mdx.frontmatter.related.map(
+                                        (related, index) => (
+                                            <div
+                                                key={index}
+                                                onClick={() =>
+                                                    navigate(
+                                                        `/blog/${related.slug}`
+                                                    )
+                                                }
+                                            >
+                                                {related.title}
+                                            </div>
+                                        )
+                                    )}
                                 </div>
                             </>
-                        ))}
-                    </div>
+                        )}
                     <hr />
                     <About text="hello">Hello</About>
                 </div>
