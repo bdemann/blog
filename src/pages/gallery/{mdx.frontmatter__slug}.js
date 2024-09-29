@@ -20,13 +20,12 @@ const GalleryItem = ({ data, children }) => {
             <h1 className={pageHeader}>{frontmatter.title}</h1>
             <div className={container}>
                 <div className={imageContainer}>
-                    <GatsbyImage
-                        image={image}
-                        alt={frontmatter.shortDescription}
-                    />
-                    <p>{frontmatter.longDescription}</p>
+                    <GatsbyImage image={image} alt={frontmatter.description} />
                 </div>
-                <div className={textContainer}>{children}</div>
+                <div className={textContainer}>
+                    <h2>{frontmatter.description}</h2>
+                    {children}
+                </div>
             </div>
         </Layout>
     );
@@ -37,8 +36,7 @@ export const query = graphql`
         mdx(id: { eq: $id }) {
             frontmatter {
                 title
-                shortDescription
-                longDescription
+                description
                 image {
                     childImageSharp {
                         gatsbyImageData

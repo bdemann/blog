@@ -22,11 +22,11 @@ const GalleryPage = ({ data }) => {
                             <Link to={`/gallery/${item.frontmatter.slug}`}>
                                 <GatsbyImage
                                     image={image}
-                                    alt={item.frontmatter.shortDescription}
+                                    alt={item.frontmatter.title}
                                 />
                             </Link>
                             <h2>{item.frontmatter.title}</h2>
-                            <p>{item.frontmatter.shortDescription}</p>
+                            <p>{item.frontmatter.description}</p>
                         </div>
                     );
                 })}
@@ -52,8 +52,7 @@ export const query = graphql`
                 frontmatter {
                     title
                     slug
-                    shortDescription
-                    longDescription
+                    description
                     image {
                         childImageSharp {
                             gatsbyImageData
