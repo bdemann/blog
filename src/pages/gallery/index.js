@@ -2,10 +2,11 @@ import React from "react";
 import { graphql, Link } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
-import Layout from "../components/layout";
-import Seo from "../components/seo";
-import Fonts from "../components/fonts";
-import { pageHeader } from "../styles/common.module.css";
+import Seo from "../../components/seo";
+import Layout from "../../components/layout";
+import Fonts from "../../components/fonts";
+import { pageHeader } from "../../styles/common.module.css";
+import { galleryContainer } from "./index.module.css";
 
 const GalleryPage = ({ data }) => {
     const items = data.allMdx.nodes;
@@ -13,13 +14,7 @@ const GalleryPage = ({ data }) => {
     return (
         <Layout pageTitle="Gallery">
             <h1 className={pageHeader}>Gallery</h1>
-            <div
-                style={{
-                    display: "grid",
-                    gridTemplateColumns: "repeat(3, 1fr)",
-                    gap: "10px",
-                }}
-            >
+            <div className={galleryContainer}>
                 {items.map((item) => {
                     const image = getImage(item.frontmatter.image);
                     return (

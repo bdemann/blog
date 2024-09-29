@@ -42,38 +42,6 @@ export const createPages = async ({graphql, actions}) => {
       },
     });
   });
-
-  const result = await graphql(`
-    query {
-      allMdx(filter: {internal: { contentFilePath: {regex: "/gallery/"}}}) {
-        nodes {
-          frontmatter {
-            slug
-            title
-            longDescription
-            image {
-              childImageSharp {
-                gatsbyImageData(width: 600, placeholder: BLURRED, formats: [AUTO, WEBP])
-              }
-            }
-          }
-        }
-      }
-    }
-  `);
-
-  const galleryTemplate = path.resolve('./src/templates/gallery-item.js');
-
-  result.data.allMdx.nodes.forEach(node => {
-    createPage({
-      path: `/gallery/${node.frontmatter.slug}`,
-      component: galleryTemplate,
-      context: {
-        slug: node.frontmatter.slug,
-        frontmatter: node.frontmatter,
-      },
-    });
-  });
 };
 
 export const onPostBuild = () => {
