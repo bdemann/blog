@@ -24,6 +24,12 @@ const GalleryItem = ({ data, children }) => {
                 </div>
                 <div className={textContainer}>
                     <h2>{frontmatter.description}</h2>
+                    Made with
+                    <ul>
+                        {frontmatter.tools?.map((tool) => (
+                            <li>{tool}</li>
+                        ))}
+                    </ul>
                     {children}
                 </div>
             </div>
@@ -37,6 +43,7 @@ export const query = graphql`
             frontmatter {
                 title
                 description
+                tools
                 image {
                     childImageSharp {
                         gatsbyImageData
