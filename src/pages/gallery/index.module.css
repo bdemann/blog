@@ -1,5 +1,17 @@
 .gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        justify-items: center; /* Centers items horizontally */
+}
+@media (min-width: 768px) {
+.gallery-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+}
+}
+
+.gallery-container > * {
+    max-width: 250px;
 }
