@@ -8,3 +8,21 @@
 .image-container img {
     height: 800px;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+.text-container {
+    max-width: 500px;
+}
+
+
+@media (min-width: 768px) {
+
+.text-container {
+    margin-left: 20px;
+}
+
+}

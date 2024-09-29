@@ -3,10 +3,13 @@ import { graphql } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import Layout from "../../components/layout";
 import { pageHeader } from "../../styles/common.module.css";
-import { imageContainer } from "./gallery-page.module.css";
+import {
+    imageContainer,
+    container,
+    textContainer,
+} from "./gallery-page.module.css";
 import Seo from "../../components/seo";
 import Fonts from "../../components/fonts";
-import { MDXRenderer } from "gatsby-plugin-mdx";
 
 const GalleryItem = ({ data, children }) => {
     const { frontmatter } = data.mdx;
@@ -15,11 +18,16 @@ const GalleryItem = ({ data, children }) => {
     return (
         <Layout>
             <h1 className={pageHeader}>{frontmatter.title}</h1>
-            <div className={imageContainer}>
-                <GatsbyImage image={image} alt={frontmatter.shortDescription} />
-                <p>{frontmatter.longDescription}</p>
+            <div className={container}>
+                <div className={imageContainer}>
+                    <GatsbyImage
+                        image={image}
+                        alt={frontmatter.shortDescription}
+                    />
+                    <p>{frontmatter.longDescription}</p>
+                </div>
+                <div className={textContainer}>{children}</div>
             </div>
-            {children}
         </Layout>
     );
 };
