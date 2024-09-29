@@ -7,7 +7,7 @@ export const createPages = async ({graphql, actions}) => {
   // Query all posts and get their tags
   const result = await graphql(`
     {
-      allMdx {
+      allMdx(filter: {internal: {contentFilePath: {regex: "/posts/"}}}) {
         edges {
           node {
             frontmatter {

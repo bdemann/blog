@@ -36,7 +36,11 @@ export default IndexPage;
 
 export const query = graphql`
     query {
-        allMdx(sort: { frontmatter: { date: DESC } }, limit: 1) {
+        allMdx(
+            sort: { frontmatter: { date: DESC } }
+            limit: 1
+            filter: { internal: { contentFilePath: { regex: "/posts/" } } }
+        ) {
             nodes {
                 frontmatter {
                     title

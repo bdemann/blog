@@ -33,7 +33,13 @@ const TagTemplate = ({ data, pageContext }) => {
 
 export const query = graphql`
     query ($tag: String!) {
-        allMdx(filter: { frontmatter: { tags: { in: [$tag] } } }) {
+        allMdx(
+            sort: { frontmatter: { title: ASC } }
+            filter: {
+                internal: { contentFilePath: { regex: "/posts/" } }
+                frontmatter: { tags: { in: [$tag] } }
+            }
+        ) {
             edges {
                 node {
                     excerpt(pruneLength: 500)

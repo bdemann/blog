@@ -28,7 +28,9 @@ const TagsPage = ({ data }) => {
 
 export const query = graphql`
     query {
-        allMdx {
+        allMdx(
+            filter: { internal: { contentFilePath: { regex: "/posts/" } } }
+        ) {
             group(field: { frontmatter: { tags: SELECT } }) {
                 fieldValue
                 totalCount
