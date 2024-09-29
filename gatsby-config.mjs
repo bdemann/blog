@@ -25,7 +25,11 @@ const config = {
     'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-source-filesystem',
-      options: {name: 'blog', path: `${__dirname}/blog`}
+      options: {name: 'posts', path: `${__dirname}/posts`}
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {name: 'gallery', path: `${__dirname}/gallery`}
     },
     {
       resolve: `gatsby-plugin-manifest`,
