@@ -56,9 +56,9 @@ export const query = graphql`
     }
 `;
 
-export const Head = () => (
+export const Head = ({ pageContext }) => (
     <>
-        <Seo title="Tags"></Seo>
+        <Seo title={pageContext.tag}></Seo>
         <Fonts></Fonts>
     </>
 );

@@ -28,7 +28,7 @@ const BlogPost = ({ data, children }) => {
                     <hr />
                     <h3>Tags</h3>
                     <div className={tags}>
-                        {data.mdx.frontmatter.tags.map((tagName, index) => (
+                        {data.mdx.frontmatter.tags?.map((tagName, index) => (
                             <span
                                 key={index}
                                 className={tag}

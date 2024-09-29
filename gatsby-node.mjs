@@ -62,7 +62,7 @@ export const createPages = async ({graphql, actions}) => {
     }
   `);
 
-  const galleryTemplate = require.resolve('./src/templates/gallery-item.js');
+  const galleryTemplate = path.resolve('./src/templates/gallery-item.js');
 
   result.data.allMdx.nodes.forEach(node => {
     createPage({

@@ -21,12 +21,10 @@ const GalleryPage = ({ data }) => {
                 }}
             >
                 {items.map((item) => {
-                    const image = getImage(
-                        item.frontmatter.image.childImageSharp.gatsbyImageData
-                    );
+                    const image = getImage(item.frontmatter.image);
                     return (
                         <div key={item.id}>
-                            <Link to={`/gallery/${item.slug}`}>
+                            <Link to={`/gallery/${item.frontmatter.slug}`}>
                                 <GatsbyImage
                                     image={image}
                                     alt={item.frontmatter.shortDescription}
@@ -58,17 +56,12 @@ export const query = graphql`
                 id
                 frontmatter {
                     title
+                    slug
                     shortDescription
                     longDescription
-
-                    slug
                     image {
                         childImageSharp {
-                            gatsbyImageData(
-                                width: 300
-                                placeholder: BLURRED
-                                formats: [AUTO, WEBP]
-                            )
+                            gatsbyImageData
                         }
                     }
                 }

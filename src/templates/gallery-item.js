@@ -24,16 +24,19 @@ export const query = graphql`
                 longDescription
                 image {
                     childImageSharp {
-                        gatsbyImageData(
-                            width: 600
-                            placeholder: BLURRED
-                            formats: [AUTO, WEBP]
-                        )
+                        gatsbyImageData
                     }
                 }
             }
         }
     }
 `;
+
+export const Head = ({ data }) => (
+    <>
+        <Seo title={data.mdx.frontmatter.title}></Seo>
+        <Fonts></Fonts>
+    </>
+);
 
 export default GalleryItem;
