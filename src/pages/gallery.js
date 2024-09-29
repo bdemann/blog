@@ -1,6 +1,5 @@
-import * as React from "react";
-
-import { graphql } from "gatsby";
+import React from "react";
+import { graphql, Link } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 import Layout from "../components/layout";
@@ -9,9 +8,10 @@ import Fonts from "../components/fonts";
 import { pageHeader } from "../styles/common.module.css";
 
 const GalleryPage = ({ data }) => {
-    const images = data.allFile.nodes;
+    const items = data.allMdx.nodes;
+
     return (
-        <Layout pageTitle="About Me">
+        <Layout pageTitle="Gallery">
             <h1 className={pageHeader}>Gallery</h1>
             <div
                 style={{
@@ -20,19 +20,20 @@ const GalleryPage = ({ data }) => {
                     gap: "10px",
                 }}
             >
-                {images.map((image) => {
-                    const img = getImage(image.childImageSharp.gatsbyImageData);
+                {items.map((item) => {
+                    const image = getImage(
+                        item.frontmatter.image.childImageSharp.gatsbyImageData
+                    );
                     return (
-                        <div key={image.id}>
-                            <a
-                                href={img.images.fallback.src}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <GatsbyImage image={img} alt={image.name} />
-                            </a>
-                            <p>{image.name}</p>{" "}
-                            {/* You can replace this with a description if needed */}
+                        <div key={item.id}>
+                            <Link to={`/gallery/${item.slug}`}>
+                                <GatsbyImage
+                                    image={image}
+                                    alt={item.frontmatter.shortDescription}
+                                />
+                            </Link>
+                            <h2>{item.frontmatter.title}</h2>
+                            <p>{item.frontmatter.shortDescription}</p>
                         </div>
                     );
                 })}
@@ -50,21 +51,26 @@ export const Head = () => (
 
 export const query = graphql`
     query {
-        allFile(
-            filter: {
-                sourceInstanceName: { eq: "gallery" }
-                extension: { regex: "/(jpg|jpeg|png|gif)/" }
-            }
+        allMdx(
+            filter: { internal: { contentFilePath: { regex: "/gallery/" } } }
         ) {
             nodes {
                 id
-                name
-                childImageSharp {
-                    gatsbyImageData(
-                        width: 300
-                        placeholder: BLURRED
-                        formats: [AUTO, WEBP]
-                    )
+                frontmatter {
+                    title
+                    shortDescription
+                    longDescription
+
+                    slug
+                    image {
+                        childImageSharp {
+                            gatsbyImageData(
+                                width: 300
+                                placeholder: BLURRED
+                                formats: [AUTO, WEBP]
+                            )
+                        }
+                    }
                 }
             }
         }

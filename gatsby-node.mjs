@@ -5,7 +5,7 @@ export const createPages = async ({graphql, actions}) => {
   const {createPage} = actions;
 
   // Query all posts and get their tags
-  const result = await graphql(`
+  const tagsMdxResult = await graphql(`
     {
       allMdx(filter: {internal: {contentFilePath: {regex: "/posts/"}}}) {
         edges {
@@ -23,7 +23,7 @@ export const createPages = async ({graphql, actions}) => {
   // Create a Set to store unique tags
   const allTags = new Set();
 
-  result.data.allMdx.edges.forEach(({node}) => {
+  tagsMdxResult.data.allMdx.edges.forEach(({node}) => {
     if (node.frontmatter.tags) {
       node.frontmatter.tags.forEach((tag) => {
         allTags.add(tag);
@@ -39,6 +39,38 @@ export const createPages = async ({graphql, actions}) => {
       component: tagTemplate,
       context: {
         tag,
+      },
+    });
+  });
+
+  const result = await graphql(`
+    query {
+      allMdx(filter: {internal: { contentFilePath: {regex: "/gallery/"}}}) {
+        nodes {
+          frontmatter {
+            slug
+            title
+            longDescription
+            image {
+              childImageSharp {
+                gatsbyImageData(width: 600, placeholder: BLURRED, formats: [AUTO, WEBP])
+              }
+            }
+          }
+        }
+      }
+    }
+  `);
+
+  const galleryTemplate = require.resolve('./src/templates/gallery-item.js');
+
+  result.data.allMdx.nodes.forEach(node => {
+    createPage({
+      path: `/gallery/${node.frontmatter.slug}`,
+      component: galleryTemplate,
+      context: {
+        slug: node.frontmatter.slug,
+        frontmatter: node.frontmatter,
       },
     });
   });
