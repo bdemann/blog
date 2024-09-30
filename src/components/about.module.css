@@ -11,6 +11,7 @@
 
 .text {
     max-width: 600px;
-    font-size: 1rem;
-    line-height: 1.6;
+}
+.text p {
+    font-size: medium;
 }

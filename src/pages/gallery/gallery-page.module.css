@@ -15,20 +15,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
+
 .text-container {
     max-width: 500px;
 }
 
 @media (min-width: 1130px) {
-
-.container {
-    flex-direction: row;
-    align-items: flex-start;
-}
-.text-container {
-    margin-left: 20px;
-}
-
+    .container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .text-container {
+        margin-left: 20px;
+    }
 }
