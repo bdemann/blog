@@ -25,6 +25,7 @@
 
 .container {
     flex-direction: row;
+    align-items: flex-start;
 }
 .text-container {
     margin-left: 20px;
