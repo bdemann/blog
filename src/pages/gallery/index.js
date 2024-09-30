@@ -45,6 +45,7 @@ export const Head = () => (
 export const query = graphql`
     query {
         allMdx(
+            sort: { frontmatter: { date: DESC } }
             filter: { internal: { contentFilePath: { regex: "/gallery/" } } }
         ) {
             nodes {

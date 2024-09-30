@@ -44,6 +44,7 @@ export const query = graphql`
                 title
                 description
                 tools
+                date(formatString: "MMMM D, YYYY")
                 image {
                     childImageSharp {
                         gatsbyImageData

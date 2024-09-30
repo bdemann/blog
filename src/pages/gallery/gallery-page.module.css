@@ -21,12 +21,14 @@
     max-width: 500px;
 }
 
-@media (min-width: 1130px) {
-    .container {
-        flex-direction: row;
-        align-items: flex-start;
+@media (min-width: 10000px) {
+    .image-container {
+        float: left;
+        margin-right: 20px;
     }
+
     .text-container {
-        margin-left: 20px;
+        max-width: 900px;
     }
+
 }
