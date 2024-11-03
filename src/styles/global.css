@@ -17,6 +17,7 @@ body, p, span, a, div {
   font-weight: 400; /* Replace with your desired weight */
   font-style: normal;
   color: #ccae99;
+  font-size: large;
 }
 
 html, body, #___gatsby, #gatsby-focus-wrapper {

@@ -19,17 +19,21 @@ const GalleryItem = ({ data, children }) => {
         <Layout>
             <h1 className={pageHeader}>{frontmatter.title}</h1>
             <div className={container}>
-                <div className={imageContainer}>
-                    <GatsbyImage image={image} alt={frontmatter.description} />
-                </div>
                 <div className={textContainer}>
-                    <h2>{frontmatter.description}</h2>
-                    Made with
-                    <ul>
-                        {frontmatter.tools?.map((tool) => (
-                            <li>{tool}</li>
-                        ))}
-                    </ul>
+                    <div className={imageContainer}>
+                        <GatsbyImage
+                            image={image}
+                            alt={frontmatter.description}
+                        />
+                        <h2>{frontmatter.description}</h2>
+                        Made with
+                        <ul>
+                            {frontmatter.tools?.map((tool) => (
+                                <li>{tool}</li>
+                            ))}
+                        </ul>
+                        {frontmatter.date}
+                    </div>
                     {children}
                 </div>
             </div>
@@ -44,6 +48,7 @@ export const query = graphql`
                 title
                 description
                 tools
+                date(formatString: "MMMM D, YYYY")
                 image {
                     childImageSharp {
                         gatsbyImageData
