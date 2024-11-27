@@ -45,14 +45,6 @@ const BlueyTierList = () => {
 
             <h2>Episodes</h2>
             <TierTable columns={blueyData.columns} data={blueyData.episodes} />
-
-            <h2>Minisodes</h2>
-            <TierTable
-                columns={blueyData.columns.filter(
-                    (col) => col.key !== "seasonNo"
-                )}
-                data={blueyData.minisodes}
-            />
         </Layout>
     );
 };

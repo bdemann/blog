@@ -6,8 +6,7 @@
         { "key": "seasonNo", "label": "No. in Series" },
         { "key": "season", "label": "Season" },
         { "key": "title", "label": "Title" },
-        { "key": "ranking", "label": "Ranking" },
-        { "key": "tentativeRanking", "label": "Tentative Ranking" }
+        { "key": "ranking", "label": "Ranking" }
     ],
     "episodes": [
         {
@@ -15,1232 +14,1078 @@
             "seasonNo": 1,
             "season": 1,
             "title": "Magic Xylophone",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "A"
         },
         {
             "overallNo": 2,
             "seasonNo": 2,
             "season": 1,
             "title": "Hospital",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "A"
         },
         {
             "overallNo": 3,
             "seasonNo": 3,
             "season": 1,
             "title": "Keepy Uppy",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "A"
         },
         {
             "overallNo": 4,
             "seasonNo": 4,
             "season": 1,
             "title": "Daddy Robot",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "A"
         },
         {
             "overallNo": 5,
             "seasonNo": 5,
             "season": 1,
             "title": "Shadowlands",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "A"
         },
         {
             "overallNo": 6,
             "seasonNo": 6,
             "season": 1,
             "title": "The Weekend",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 7,
             "seasonNo": 7,
             "season": 1,
             "title": "BBQ",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 8,
             "seasonNo": 8,
             "season": 1,
             "title": "Fruitbat",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 9,
             "seasonNo": 9,
             "season": 1,
             "title": "Horsey Ride",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 10,
             "seasonNo": 10,
             "season": 1,
             "title": "Hotel",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 11,
             "seasonNo": 11,
             "season": 1,
             "title": "Bike",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 12,
             "seasonNo": 12,
             "season": 1,
             "title": "Bob Bilby",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "S"
         },
         {
             "overallNo": 13,
             "seasonNo": 13,
             "season": 1,
             "title": "Spy Game",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "D"
         },
         {
             "overallNo": 14,
             "seasonNo": 14,
             "season": 1,
             "title": "Takeaway",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 15,
             "seasonNo": 15,
             "season": 1,
             "title": "Butterflies",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "D"
         },
         {
             "overallNo": 16,
             "seasonNo": 16,
             "season": 1,
             "title": "Yoga Ball",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 17,
             "seasonNo": 17,
             "season": 1,
             "title": "Calypso",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "D"
         },
         {
             "overallNo": 18,
             "seasonNo": 18,
             "season": 1,
             "title": "The Doctor",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 19,
             "seasonNo": 19,
             "season": 1,
             "title": "The Claw",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "A"
         },
         {
             "overallNo": 20,
             "seasonNo": 20,
             "season": 1,
             "title": "Markets",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 21,
             "seasonNo": 21,
             "season": 1,
             "title": "Blue Mountains",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "F"
         },
         {
             "overallNo": 22,
             "seasonNo": 22,
             "season": 1,
             "title": "The Pool",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "A"
         },
         {
             "overallNo": 23,
             "seasonNo": 23,
             "season": 1,
             "title": "Shops",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "D"
         },
         {
             "overallNo": 24,
             "seasonNo": 24,
             "season": 1,
             "title": "Wagon Ride",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 25,
             "seasonNo": 25,
             "season": 1,
             "title": "Taxi",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "S"
         },
         {
             "overallNo": 26,
             "seasonNo": 26,
             "season": 1,
             "title": "The Beach",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 27,
             "seasonNo": 27,
             "season": 1,
             "title": "Pirates",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 28,
             "seasonNo": 28,
             "season": 1,
             "title": "Grannies",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "S"
         },
         {
             "overallNo": 29,
             "seasonNo": 29,
             "season": 1,
             "title": "The Creek",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 30,
             "seasonNo": 30,
             "season": 1,
             "title": "Fairies",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 31,
             "seasonNo": 31,
             "season": 1,
             "title": "Work",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 32,
             "seasonNo": 32,
             "season": 1,
             "title": "Bumpy and the Wise Old Wolfhound",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "D"
         },
         {
             "overallNo": 33,
             "seasonNo": 33,
             "season": 1,
             "title": "Trampoline",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 34,
             "seasonNo": 34,
             "season": 1,
             "title": "The Dump",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 35,
             "seasonNo": 35,
             "season": 1,
             "title": "Zoo",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "A"
         },
         {
             "overallNo": 36,
             "seasonNo": 36,
             "season": 1,
             "title": "Backpackers",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 37,
             "seasonNo": 37,
             "season": 1,
             "title": "The Adventure",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "D"
         },
         {
             "overallNo": 38,
             "seasonNo": 38,
             "season": 1,
             "title": "Copycat",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "A"
         },
         {
             "overallNo": 39,
             "seasonNo": 39,
             "season": 1,
             "title": "The Sleepover",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 40,
             "seasonNo": 40,
             "season": 1,
             "title": "Early Baby",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 41,
             "seasonNo": 41,
             "season": 1,
             "title": "Mums and Dads",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 42,
             "seasonNo": 42,
             "season": 1,
             "title": "Hide and Seek",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 43,
             "seasonNo": 43,
             "season": 1,
             "title": "Camping",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "A"
         },
         {
             "overallNo": 44,
             "seasonNo": 44,
             "season": 1,
             "title": "Mount Mumandad",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 45,
             "seasonNo": 45,
             "season": 1,
             "title": "Kids",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 46,
             "seasonNo": 46,
             "season": 1,
             "title": "Chickenrat",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 47,
             "seasonNo": 47,
             "season": 1,
             "title": "Neighbours",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 48,
             "seasonNo": 48,
             "season": 1,
             "title": "Teasing",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "A"
         },
         {
             "overallNo": 49,
             "seasonNo": 49,
             "season": 1,
             "title": "Asparagus",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 50,
             "seasonNo": 50,
             "season": 1,
             "title": "Shaun",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 51,
             "seasonNo": 51,
             "season": 1,
             "title": "Daddy Putdown",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 52,
             "seasonNo": 52,
             "season": 1,
             "title": "Verandah Santa",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 53,
             "seasonNo": 1,
             "season": 2,
             "title": "Dance Mode",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "S"
         },
         {
             "overallNo": 54,
             "seasonNo": 2,
             "season": 2,
             "title": "Hammerbarn",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "S"
         },
         {
             "overallNo": 55,
             "seasonNo": 3,
             "season": 2,
             "title": "Featherwand",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "A"
         },
         {
             "overallNo": 56,
             "seasonNo": 4,
             "season": 2,
             "title": "Squash",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 57,
             "seasonNo": 5,
             "season": 2,
             "title": "Hairdressers",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 58,
             "seasonNo": 6,
             "season": 2,
             "title": "Stumpfest",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 59,
             "seasonNo": 7,
             "season": 2,
             "title": "Favourite Thing",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "D"
         },
         {
             "overallNo": 60,
             "seasonNo": 8,
             "season": 2,
             "title": "Daddy Dropoff",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 61,
             "seasonNo": 9,
             "season": 2,
             "title": "Bingo",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "S"
         },
         {
             "overallNo": 62,
             "seasonNo": 10,
             "season": 2,
             "title": "Rug Island",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 63,
             "seasonNo": 11,
             "season": 2,
             "title": "Charades",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 64,
             "seasonNo": 12,
             "season": 2,
             "title": "Sticky Gecko",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 65,
             "seasonNo": 13,
             "season": 2,
             "title": "Dad Baby",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "A"
         },
         {
             "overallNo": 66,
             "seasonNo": 14,
             "season": 2,
             "title": "Mum School",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "A"
         },
         {
             "overallNo": 67,
             "seasonNo": 15,
             "season": 2,
             "title": "Trains",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 68,
             "seasonNo": 16,
             "season": 2,
             "title": "Army",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 69,
             "seasonNo": 17,
             "season": 2,
             "title": "Fancy Restaurant",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "A"
         },
         {
             "overallNo": 70,
             "seasonNo": 18,
             "season": 2,
             "title": "Piggyback",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 71,
             "seasonNo": 19,
             "season": 2,
             "title": "The Show",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 72,
             "seasonNo": 20,
             "season": 2,
             "title": "Tickle Crabs",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 73,
             "seasonNo": 21,
             "season": 2,
             "title": "Escape",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "S"
         },
         {
             "overallNo": 74,
             "seasonNo": 22,
             "season": 2,
             "title": "Bus",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "A"
         },
         {
             "overallNo": 75,
             "seasonNo": 23,
             "season": 2,
             "title": "Queens",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 76,
             "seasonNo": 24,
             "season": 2,
             "title": "Flat Pack",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 77,
             "seasonNo": 25,
             "season": 2,
             "title": "Helicopter",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 78,
             "seasonNo": 26,
             "season": 2,
             "title": "Sleepytime",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "A"
         },
         {
             "overallNo": 79,
             "seasonNo": 27,
             "season": 2,
             "title": "Grandad",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "A"
         },
         {
             "overallNo": 80,
             "seasonNo": 28,
             "season": 2,
             "title": "Seesaw",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 81,
             "seasonNo": 29,
             "season": 2,
             "title": "Movies",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "D"
         },
         {
             "overallNo": 82,
             "seasonNo": 30,
             "season": 2,
             "title": "Library",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "A"
         },
         {
             "overallNo": 83,
             "seasonNo": 31,
             "season": 2,
             "title": "Barky Boats",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 84,
             "seasonNo": 32,
             "season": 2,
             "title": "Burger Shop",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 85,
             "seasonNo": 33,
             "season": 2,
             "title": "Circus",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 86,
             "seasonNo": 34,
             "season": 2,
             "title": "Swim School",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "A"
         },
         {
             "overallNo": 87,
             "seasonNo": 35,
             "season": 2,
             "title": "Café",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 88,
             "seasonNo": 36,
             "season": 2,
             "title": "Postman",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 89,
             "seasonNo": 37,
             "season": 2,
             "title": "The Quiet Game",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "A"
         },
         {
             "overallNo": 90,
             "seasonNo": 38,
             "season": 2,
             "title": "Mr Monkeyjocks",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "A"
         },
         {
             "overallNo": 91,
             "seasonNo": 39,
             "season": 2,
             "title": "Double Babysitter",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 92,
             "seasonNo": 40,
             "season": 2,
             "title": "Bad Mood",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 93,
             "seasonNo": 41,
             "season": 2,
             "title": "Octopus",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "S"
         },
         {
             "overallNo": 94,
             "seasonNo": 42,
             "season": 2,
             "title": "Bin Night",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 95,
             "seasonNo": 43,
             "season": 2,
             "title": "Muffin Cone",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 96,
             "seasonNo": 44,
             "season": 2,
             "title": "Duck Cake",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "S"
         },
         {
             "overallNo": 97,
             "seasonNo": 45,
             "season": 2,
             "title": "Handstand",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "S"
         },
         {
             "overallNo": 98,
             "seasonNo": 46,
             "season": 2,
             "title": "Road Trip",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 99,
             "seasonNo": 47,
             "season": 2,
             "title": "Ice Cream",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 100,
             "seasonNo": 48,
             "season": 2,
             "title": "Dunny",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 101,
             "seasonNo": 49,
             "season": 2,
             "title": "Typewriter",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 102,
             "seasonNo": 50,
             "season": 2,
             "title": "Baby Race",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "S"
         },
         {
             "overallNo": 103,
             "seasonNo": 51,
             "season": 2,
             "title": "Christmas Swim",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 104,
             "seasonNo": 52,
             "season": 2,
             "title": "Easter",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 105,
             "seasonNo": 1,
             "season": 3,
             "title": "Perfect",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 106,
             "seasonNo": 2,
             "season": 3,
             "title": "Bedroom",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 107,
             "seasonNo": 3,
             "season": 3,
             "title": "Obstacle Course",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 108,
             "seasonNo": 4,
             "season": 3,
             "title": "Promises",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 109,
             "seasonNo": 5,
             "season": 3,
             "title": "Omelette",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 110,
             "seasonNo": 6,
             "season": 3,
             "title": "Born Yesterday",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "A"
         },
         {
             "overallNo": 111,
             "seasonNo": 7,
             "season": 3,
             "title": "Mini Bluey",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 112,
             "seasonNo": 8,
             "season": 3,
             "title": "Unicorse",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "D"
         },
         {
             "overallNo": 113,
             "seasonNo": 9,
             "season": 3,
             "title": "Curry Quest",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "D"
         },
         {
             "overallNo": 114,
             "seasonNo": 10,
             "season": 3,
             "title": "Magic",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 115,
             "seasonNo": 11,
             "season": 3,
             "title": "Chest",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 116,
             "seasonNo": 12,
             "season": 3,
             "title": "Sheepdog",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 117,
             "seasonNo": 13,
             "season": 3,
             "title": "Housework",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 118,
             "seasonNo": 14,
             "season": 3,
             "title": "Pass the Parcel",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "S"
         },
         {
             "overallNo": 119,
             "seasonNo": 15,
             "season": 3,
             "title": "Explorers",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "A"
         },
         {
             "overallNo": 120,
             "seasonNo": 16,
             "season": 3,
             "title": "Phones",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "S"
         },
         {
             "overallNo": 121,
             "seasonNo": 17,
             "season": 3,
             "title": "Pavlova",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "S"
         },
         {
             "overallNo": 122,
             "seasonNo": 18,
             "season": 3,
             "title": "Rain",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 123,
             "seasonNo": 19,
             "season": 3,
             "title": "Pizza Girls",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 124,
             "seasonNo": 20,
             "season": 3,
             "title": "Driving",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 125,
             "seasonNo": 21,
             "season": 3,
             "title": "Tina",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 126,
             "seasonNo": 22,
             "season": 3,
             "title": "Whale Watching",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "A"
         },
         {
             "overallNo": 127,
             "seasonNo": 23,
             "season": 3,
             "title": "Family Meeting",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 128,
             "seasonNo": 24,
             "season": 3,
             "title": "Faceytalk",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 129,
             "seasonNo": 25,
             "season": 3,
             "title": "Ragdoll",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 130,
             "seasonNo": 26,
             "season": 3,
             "title": "Fairytale",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 131,
             "seasonNo": 27,
             "season": 3,
             "title": "Musical Statues",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 132,
             "seasonNo": 28,
             "season": 3,
             "title": "Stories",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "F"
         },
         {
             "overallNo": 133,
             "seasonNo": 29,
             "season": 3,
             "title": "Puppets",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "D"
         },
         {
             "overallNo": 134,
             "seasonNo": 30,
             "season": 3,
             "title": "Turtleboy",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "A"
         },
         {
             "overallNo": 135,
             "seasonNo": 31,
             "season": 3,
             "title": "Onesies",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 136,
             "seasonNo": 32,
             "season": 3,
             "title": "Tradies",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 137,
             "seasonNo": 33,
             "season": 3,
             "title": "Granny Mobile",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 138,
             "seasonNo": 34,
             "season": 3,
             "title": "Space",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 139,
             "seasonNo": 35,
             "season": 3,
             "title": "Smoochy Kiss",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "D"
         },
         {
             "overallNo": 140,
             "seasonNo": 36,
             "season": 3,
             "title": "Dirt",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "D"
         },
         {
             "overallNo": 141,
             "seasonNo": 37,
             "season": 3,
             "title": "The Decider",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 142,
             "seasonNo": 38,
             "season": 3,
             "title": "Cubby",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "A"
         },
         {
             "overallNo": 143,
             "seasonNo": 39,
             "season": 3,
             "title": "Exercise",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 144,
             "seasonNo": 40,
             "season": 3,
             "title": "Relax",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 145,
             "seasonNo": 41,
             "season": 3,
             "title": "Stickbird",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 146,
             "seasonNo": 42,
             "season": 3,
             "title": "Show and Tell",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 147,
             "seasonNo": 43,
             "season": 3,
             "title": "Dragon",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 148,
             "seasonNo": 44,
             "season": 3,
             "title": "Wild Girls",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "C"
         },
         {
             "overallNo": 149,
             "seasonNo": 45,
             "season": 3,
             "title": "TV Shop",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 150,
             "seasonNo": 46,
             "season": 3,
             "title": "Slide",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 151,
             "seasonNo": 47,
             "season": 3,
             "title": "Cricket",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 152,
             "seasonNo": 48,
             "season": 3,
             "title": "Ghostbasket",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         },
         {
             "overallNo": 153,
             "seasonNo": 49,
             "season": 3,
             "title": "The Sign",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "A"
         },
         {
             "overallNo": 154,
             "seasonNo": 50,
             "season": 3,
             "title": "Surprise!",
-            "ranking": "",
-            "tentativeRanking": ""
+            "ranking": "B"
         }
     ]
 }
