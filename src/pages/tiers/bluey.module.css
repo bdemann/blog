@@ -1,0 +1,33 @@
+.statsTable {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.statsContainer {
+    overflow-x: auto;
+}
+
+.cell {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.headerCell {
+    composes: cell;
+    text-align: center;
+}
+
+.headerCellLeft {
+    composes: cell;
+    text-align: left;
+}
+
+.dataCell {
+    composes: cell;
+    text-align: center;
+}
+
+.totalRow {
+    font-weight: bold;
+}
