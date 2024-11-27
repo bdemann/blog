@@ -15,30 +15,59 @@ const BlueyTierList = () => {
                 Subjective Criteria
                 <ul>
                     <li>
-                        S Tier: Perfect episode—stop everything to watch.
-                        Resonates deeply, has memorable moments or lessons, and
-                        appeals equally to kids and adults.
+                        S Tier: Perfect episode
+                        <ul>
+                            <li>
+                                Stop everything to watch. Resonates deeply, has
+                                memorable moments or lessons, and appeals
+                                equally to kids and adults.
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        A Tier: Great episode—always happy to watch. Strong
-                        message or entertainment value but not quite "perfect."
+                        A Tier: Great episode
+                        <ul>
+                            <li>
+                                Always happy to watch. Strong message or
+                                entertainment value but not quite "perfect."
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        B Tier: Good episode—enjoyable but not always a
-                        standout. Solid storytelling and humor.
+                        B Tier: Good episode
+                        <ul>
+                            <li>
+                                Enjoyable but not always a standout. Solid
+                                storytelling and humor.
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        C Tier: Okay episode—fine to leave on but doesn’t
-                        captivate you. Might be forgettable or have a weaker
-                        theme.
+                        C Tier: Okay episode
+                        <ul>
+                            <li>
+                                Fine to leave on but doesn't captivate you.
+                                Might be forgettable or have a weaker theme.
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        D Tier: Weak episode—rarely enjoyable. Lacks the charm
-                        or quality of better episodes.
+                        D Tier: Weak episode
+                        <ul>
+                            <li>
+                                Rarely enjoyable. Lacks the charm or quality of
+                                better episodes.
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        F Tier: Unwatchable—actively disliked. Poor message,
-                        annoying elements, or inappropriate tone.
+                        F Tier: Unwatchable
+                        <ul>
+                            <li>
+                                Actively disliked. Poor message, annoying
+                                elements, or inappropriate tone.
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </p>
