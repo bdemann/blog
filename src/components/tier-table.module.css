@@ -28,3 +28,45 @@
 .tier-table tr:hover {
   background-color: #eee;
 }
+
+.tabButtons {
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.tabButton {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    background: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.activeTab {
+    background: #007bff;
+    color: white;
+    border-color: #0056b3;
+}
+
+.groupedView {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.tierGroup {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+.tierTitle {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.emptyTier {
+    color: #666;
+    font-style: italic;
+}
