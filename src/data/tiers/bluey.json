@@ -490,7 +490,7 @@
             "seasonNo": 17,
             "season": 2,
             "title": "Fancy Restaurant",
-            "ranking": "A"
+            "ranking": "S"
         },
         {
             "overallNo": 70,
@@ -889,14 +889,14 @@
             "seasonNo": 22,
             "season": 3,
             "title": "Whale Watching",
-            "ranking": "A"
+            "ranking": "S"
         },
         {
             "overallNo": 127,
             "seasonNo": 23,
             "season": 3,
             "title": "Family Meeting",
-            "ranking": "C"
+            "ranking": "D"
         },
         {
             "overallNo": 128,
@@ -917,7 +917,7 @@
             "seasonNo": 26,
             "season": 3,
             "title": "Fairytale",
-            "ranking": "B"
+            "ranking": "C"
         },
         {
             "overallNo": 131,
@@ -1001,7 +1001,7 @@
             "seasonNo": 38,
             "season": 3,
             "title": "Cubby",
-            "ranking": "A"
+            "ranking": "S"
         },
         {
             "overallNo": 143,
@@ -1015,14 +1015,14 @@
             "seasonNo": 40,
             "season": 3,
             "title": "Relax",
-            "ranking": "B"
+            "ranking": "C"
         },
         {
             "overallNo": 145,
             "seasonNo": 41,
             "season": 3,
             "title": "Stickbird",
-            "ranking": "B"
+            "ranking": "C"
         },
         {
             "overallNo": 146,
@@ -1057,7 +1057,7 @@
             "seasonNo": 46,
             "season": 3,
             "title": "Slide",
-            "ranking": "B"
+            "ranking": "C"
         },
         {
             "overallNo": 151,
