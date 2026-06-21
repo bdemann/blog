@@ -1,0 +1,126 @@
+{
+    "title": "Bluey Minisodes",
+    "description": "A comprehensive tier ranking of all Bluey minisodes",
+    "columns": [
+        { "key": "overallNo", "label": "No. Overall" },
+        { "key": "title", "label": "Title" },
+        { "key": "ranking", "label": "Ranking" },
+        { "key": "tentativeRanking", "label": "Tentative Ranking" }
+    ],
+    "episodes": [
+        {
+            "overallNo": 1,
+            "title": "Burger Dog",
+            "ranking": "",
+            "tentativeRanking": ""
+        },
+        {
+            "overallNo": 2,
+            "title": "Bingo 3000",
+            "ranking": "",
+            "tentativeRanking": ""
+        },
+        {
+            "overallNo": 3,
+            "title": "Muffin Unboxing",
+            "ranking": "",
+            "tentativeRanking": ""
+        },
+        {
+            "overallNo": 4,
+            "title": "Letter",
+            "ranking": "",
+            "tentativeRanking": ""
+        },
+        {
+            "overallNo": 5,
+            "title": "Hungry",
+            "ranking": "",
+            "tentativeRanking": ""
+        },
+        {
+            "overallNo": 6,
+            "title": "Three Pigs",
+            "ranking": "",
+            "tentativeRanking": ""
+        },
+        {
+            "overallNo": 7,
+            "title": "Animals",
+            "ranking": "",
+            "tentativeRanking": ""
+        },
+        {
+            "overallNo": 8,
+            "title": "Tattoo Shop",
+            "ranking": "",
+            "tentativeRanking": ""
+        },
+        {
+            "overallNo": 9,
+            "title": "Phoney",
+            "ranking": "",
+            "tentativeRanking": ""
+        },
+        {
+            "overallNo": 10,
+            "title": "Blocks",
+            "ranking": "",
+            "tentativeRanking": ""
+        },
+        {
+            "overallNo": 11,
+            "title": "Government",
+            "ranking": "",
+            "tentativeRanking": ""
+        },
+        {
+            "overallNo": 12,
+            "title": "Drums",
+            "ranking": "",
+            "tentativeRanking": ""
+        },
+        {
+            "overallNo": 13,
+            "title": "Browny Bear",
+            "ranking": "",
+            "tentativeRanking": ""
+        },
+        {
+            "overallNo": 14,
+            "title": "Whirlpool",
+            "ranking": "",
+            "tentativeRanking": ""
+        },
+        {
+            "overallNo": 15,
+            "title": "Strong Potion",
+            "ranking": "",
+            "tentativeRanking": ""
+        },
+        {
+            "overallNo": 16,
+            "title": "Robo Bingo",
+            "ranking": "",
+            "tentativeRanking": ""
+        },
+        {
+            "overallNo": 17,
+            "title": "Where's Bingo",
+            "ranking": "",
+            "tentativeRanking": ""
+        },
+        {
+            "overallNo": 18,
+            "title": "Goldilocks",
+            "ranking": "",
+            "tentativeRanking": ""
+        },
+        {
+            "overallNo": 19,
+            "title": "Alongside",
+            "ranking": "",
+            "tentativeRanking": ""
+        }
+    ]
+}
