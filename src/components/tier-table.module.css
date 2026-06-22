@@ -17,7 +17,7 @@
 }
 
 .tier-table th {
-  background-color: #571a11;
+  background-color: var(--accent-red);
   color: white;
 }
 

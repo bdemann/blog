@@ -1,52 +1,149 @@
+/* ── Book spine ──────────────────────────────────────────────
+   Mobile-first: the spine now renders at every width ("lying flat"
+   stack on phones) instead of collapsing to a plain block < 768px. */
+
+.book-link {
+    text-decoration: none;
+    display: block;
+}
+
 .spine {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 5px;
-    height: 230px; /* Ensure spine has a fixed height for children to inherit from */
+    height: 150px; /* mobile height; desktop bumps this up */
+    border-radius: 3px;
+    overflow: hidden;
+    /* contact shadow so stacked books seat on each other like a pile */
+    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.6);
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
 
-    .date-label {
-        border-left: 1px solid #c8ae46;
-        border-right: 1px solid #c8ae46;
-        background-color: black;
-        color: #c8ae46;
-        width: 30px;
-        writing-mode: vertical-rl;
-        text-orientation: sideways;
-        transform: rotate(180deg);
-        padding: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: large;
-    }
+/* hover / keyboard focus = pull the book off the shelf */
+.book-link:hover .spine,
+.book-link:focus-visible .spine {
+    transform: translateY(-4px);
+    box-shadow: 0 13px 20px -6px rgba(0, 0, 0, 0.72);
+}
 
-    .date-wrapper {
-        display: flex;
-        align-items: stretch;
-        height: 100%;
-    }
+/* gold foil binding lines along the top & bottom edges (head/tail bands) */
+.spine::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    border-top: 2px solid rgba(200, 174, 70, 0.55);
+    border-bottom: 2px solid rgba(200, 174, 70, 0.55);
+    border-radius: inherit;
+}
+
+/* cylindrical sheen: light catches the top edge, shade falls to the
+   bottom — sells the spine as a rounded, raised surface */
+.spine::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.1),
+        rgba(255, 255, 255, 0) 20%,
+        rgba(0, 0, 0, 0) 80%,
+        rgba(0, 0, 0, 0.28)
+    );
+}
+
+/* ── Spine cloth colors (vertical gradient also gives roundness) ── */
+.brown {
+    background-color: #2e2b26;
+    background-image: linear-gradient(to bottom, #2e2b26, #403c34, #2e2b26);
+}
+.blue {
+    background-color: #0e0e21;
+    background-image: linear-gradient(to bottom, #0e0e21, #151633, #0e0e21);
+}
+.green {
+    background-color: #163314;
+    background-image: linear-gradient(to bottom, #0f210e, #173315, #0f210e);
+}
+.red {
+    background-color: #210e0e;
+    background-image: linear-gradient(to bottom, #210e0e, #331515, #210e0e);
+}
+
+/* ── Date band ── */
+.date-wrapper {
+    display: flex;
+    align-items: stretch;
+    height: 100%;
+}
+
+.date-label {
+    border-left: 1px solid #c8ae46;
+    border-right: 1px solid #c8ae46;
+    background-image: linear-gradient(to bottom, #000, #121212, #000);
+    color: #c8ae46;
+    width: 34px;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    transform: rotate(180deg);
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+/* ── Flourishes ── */
+.first-flourish,
+.second-flourish {
+    display: flex;
+    align-items: center;
+}
+.first-flourish svg,
+.second-flourish svg {
+    height: 88%;
+}
+
+/* ── Title / excerpt ── */
+.info {
+    padding: 12px 16px;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.post-title {
+    font-size: x-large;
+    margin: 0;
+    color: #c8ae46; /* gold foil-stamped title */
+    letter-spacing: 0.3px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.6), 0 -1px 0 rgba(255, 255, 255, 0.12);
+}
+
+.post-excerpt {
+    overflow: hidden;
+    margin: 0.4rem 0 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+/* the trailing spacer + half flourish are a desktop-only flourish */
+.empty-wrapper,
+.second-flourish {
+    display: none;
+}
+
+/* ── Desktop ── */
 @media (min-width: 768px) {
-    .brown {
-        background-image: linear-gradient(to bottom, #2e2b26, #403c34, #2e2b26);
-    }
-    .blue {
-        background-image: linear-gradient(to bottom, #0e0e21, #151633, #0e0e21);
-    }
-    .green {
-        background-image: linear-gradient(to bottom, #0f210e, #173315, #0f210e);
-    }
-    .red {
-        background-image: linear-gradient(to bottom, #210e0e, #331515, #210e0e);
-    }
-    .first-flourish svg {
-        height: 95%;
-    }
-
-    .date-label {
-        background-image: linear-gradient(to bottom, #000, #121212, #000);
-        width: 50px;
+    .spine {
+        height: 230px;
     }
 
     .date-wrapper {
@@ -55,7 +152,33 @@
         padding: 0 15px;
     }
 
+    .date-label {
+        width: 50px;
+        padding: 10px;
+        font-size: large;
+    }
+
+    .first-flourish svg,
+    .second-flourish svg {
+        height: 95%;
+    }
+
+    .info {
+        padding: 20px;
+        justify-content: flex-start;
+    }
+
+    .post-title {
+        font-size: xx-large;
+    }
+
+    .post-excerpt {
+        -webkit-line-clamp: 6;
+    }
+
     .empty-wrapper {
+        display: flex;
+        align-items: stretch;
         border-left: 1px solid #c8ae46;
         border-right: 1px solid #c8ae46;
         padding: 0 15px;
@@ -68,42 +191,7 @@
         height: 100%;
     }
 
-    .second-flourish svg {
-        height: 95%;
+    .second-flourish {
+        display: flex;
     }
-}
-
-.book-link {
-    text-decoration: none;
-}
-
-.brown {
-    background-color: #2e2b26;
-}
-.blue {
-    background-color: #0e0e21;
-}
-.green {
-    background-color: #163314;
-}
-.red {
-    background-color: #210e0e;
-}
-
-.info {
-    padding: 20px;
-    max-width: 700px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
-.post-title {
-    font-size: xx-large;
-    margin: 0;
-}
-
-.post-excerpt {
-    overflow: hidden;
 }

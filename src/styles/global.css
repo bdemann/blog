@@ -1,4 +1,8 @@
 /* src/styles/global.css */
+:root {
+    --accent-red: #5d3028;
+}
+
 a:link, a:visited {
     color: #a39065;
 }
