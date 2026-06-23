@@ -21,7 +21,7 @@ const TagTemplate = ({ data, pageContext }) => {
                             date={node.frontmatter.date}
                             excerpt={node.excerpt}
                             to={`/blog/${node.frontmatter.slug}`}
-                            color={node.frontmatter.color ?? "brown"}
+                            category={node.frontmatter.category ?? "meta"}
                         ></Book>
                         <br></br>
                     </article>
@@ -48,7 +48,7 @@ export const query = graphql`
                         date(formatString: "MMMM D, YYYY")
                         title
                         slug
-                        color
+                        category
                     }
                 }
             }
