@@ -28,61 +28,48 @@
     box-shadow: 0 13px 20px -6px rgba(0, 0, 0, 0.72);
 }
 
-/* cylindrical sheen: light catches the top edge, shade falls to the
-   bottom — sells the spine as a rounded, raised surface. Painted over
-   the emblems too, so they pick up the spine's curve shading. */
-.spine::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
-    background: linear-gradient(
-        to bottom,
-        rgba(255, 255, 255, 0.1),
-        rgba(255, 255, 255, 0) 20%,
-        rgba(0, 0, 0, 0) 80%,
-        rgba(0, 0, 0, 0.28)
-    );
-}
-
-/* ── Spine cloth colors (vertical gradient also gives roundness) ── */
+/* ── Spine cloth colors ──────────────────────────────────────────
+   Dome profile: brightens steeply from the dark edges (mid tone by 15%)
+   then domes gently to the center peak. No separate sheen overlay — the
+   cloth gradient alone carries the curve, and the emblems' transparency
+   lets it bend them to the same dome. */
 .brown {
     background-color: #2e2b26;
-    background-image: linear-gradient(to bottom, #2e2b26, #403c34, #2e2b26);
+    background-image: linear-gradient(to bottom, #2e2b26 0%, #38342e 15%, #403c34 50%, #38342e 85%, #2e2b26 100%);
 }
 .blue {
     background-color: #0e0e21;
-    background-image: linear-gradient(to bottom, #0e0e21, #151633, #0e0e21);
+    background-image: linear-gradient(to bottom, #0e0e21 0%, #12122b 15%, #151633 50%, #12122b 85%, #0e0e21 100%);
 }
 .green {
     background-color: #163314;
-    background-image: linear-gradient(to bottom, #0f210e, #173315, #0f210e);
+    background-image: linear-gradient(to bottom, #0f210e 0%, #132b12 15%, #173315 50%, #132b12 85%, #0f210e 100%);
 }
 .red {
     background-color: #210e0e;
-    background-image: linear-gradient(to bottom, #210e0e, #331515, #210e0e);
+    background-image: linear-gradient(to bottom, #210e0e 0%, #2b1212 15%, #331515 50%, #2b1212 85%, #210e0e 100%);
 }
 
-/* register cloth colors (Pass 2) */
+/* register cloth colors (Pass 2) — same dome profile */
 .amber {
     background-color: #2a200a;
-    background-image: linear-gradient(to bottom, #2a200a, #403211, #2a200a);
+    background-image: linear-gradient(to bottom, #2a200a 0%, #362a0e 15%, #403211 50%, #362a0e 85%, #2a200a 100%);
 }
 .navy {
     background-color: #0e0e21;
-    background-image: linear-gradient(to bottom, #0e0e21, #151633, #0e0e21);
+    background-image: linear-gradient(to bottom, #0e0e21 0%, #12122b 15%, #151633 50%, #12122b 85%, #0e0e21 100%);
 }
 .verdigris {
     background-color: #0c1f1c;
-    background-image: linear-gradient(to bottom, #0c1f1c, #14302b, #0c1f1c);
+    background-image: linear-gradient(to bottom, #0c1f1c 0%, #102824 15%, #14302b 50%, #102824 85%, #0c1f1c 100%);
 }
 .oxblood {
     background-color: #210e0e;
-    background-image: linear-gradient(to bottom, #210e0e, #331515, #210e0e);
+    background-image: linear-gradient(to bottom, #210e0e 0%, #2b1212 15%, #331515 50%, #2b1212 85%, #210e0e 100%);
 }
 .plum {
     background-color: #1e0e21;
-    background-image: linear-gradient(to bottom, #1e0e21, #2c1533, #1e0e21);
+    background-image: linear-gradient(to bottom, #1e0e21 0%, #26122b 15%, #2c1533 50%, #26122b 85%, #1e0e21 100%);
 }
 
 /* ── Date band ── */
@@ -163,6 +150,24 @@
         border-left: 1px solid #c8ae46;
         border-right: 1px solid #c8ae46;
         padding: 0 15px;
+        /* the two 16px channels flanking the date are false bands —
+           shade each as a rounded ridge (dark at the gold edges, warm
+           crest in the middle) so it pokes out of the spine */
+        background-image: linear-gradient(
+                to right,
+                rgba(0, 0, 0, 0.3),
+                rgba(255, 238, 190, 0.11),
+                rgba(0, 0, 0, 0.3)
+            ),
+            linear-gradient(
+                to right,
+                rgba(0, 0, 0, 0.3),
+                rgba(255, 238, 190, 0.11),
+                rgba(0, 0, 0, 0.3)
+            );
+        background-size: 16px 100%, 16px 100%;
+        background-position: left center, right center;
+        background-repeat: no-repeat, no-repeat;
     }
 
     .date-label {
@@ -177,7 +182,9 @@
     }
 
     .info {
-        padding: 20px;
+        flex: 1; /* absorb the extra width into the text block... */
+        max-width: 860px;
+        padding: 20px 48px; /* ...as breathing room around the title/excerpt */
         justify-content: flex-start;
     }
 
@@ -195,6 +202,22 @@
         border-left: 1px solid #c8ae46;
         border-right: 1px solid #c8ae46;
         padding: 0 15px;
+        /* the other two false bands, same rounded-ridge raise */
+        background-image: linear-gradient(
+                to right,
+                rgba(0, 0, 0, 0.3),
+                rgba(255, 238, 190, 0.11),
+                rgba(0, 0, 0, 0.3)
+            ),
+            linear-gradient(
+                to right,
+                rgba(0, 0, 0, 0.3),
+                rgba(255, 238, 190, 0.11),
+                rgba(0, 0, 0, 0.3)
+            );
+        background-size: 16px 100%, 16px 100%;
+        background-position: left center, right center;
+        background-repeat: no-repeat, no-repeat;
     }
 
     .empty {
@@ -206,12 +229,5 @@
 
     .second-flourish {
         display: flex;
-    }
-
-    /* let the bookend flourishes grow and center the emblem in the
-       leftover space instead of leaving it dead at the edges */
-    .first-flourish,
-    .second-flourish {
-        flex: 1;
     }
 }
