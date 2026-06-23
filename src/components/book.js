@@ -6,6 +6,13 @@ import Flourish3Half from "./fourishes/flourish3Half";
 import Flourish4 from "./fourishes/flourish4";
 import Flourish4Half from "./fourishes/flourish4Half";
 
+import FlameFlourish from "./fourishes/flameFlourish";
+import ShieldFlourish from "./fourishes/shieldFlourish";
+import QuillFlourish from "./fourishes/quillFlourish";
+import MegaphoneFlourish from "./fourishes/megaphoneFlourish";
+import JesterFlourish from "./fourishes/jesterFlourish";
+import BookPenFlourish from "./fourishes/bookPenFlourish";
+
 import {
     spine,
     firstFlourish,
@@ -21,11 +28,17 @@ import {
     brown,
     blue,
     red,
+    amber,
+    navy,
+    verdigris,
+    oxblood,
+    plum,
     bookLink,
 } from "./book.module.css";
 
 import { Link } from "gatsby";
 
+// Legacy color → flourish mapping (posts still on the old `color` field).
 const colors = {
     green: { color: green, flourish: [Flourish3, Flourish3Half] },
     blue: { color: blue, flourish: [Flourish4, Flourish4Half] },
@@ -33,16 +46,34 @@ const colors = {
     red: { color: red, flourish: [Flourish3, Flourish3Half] },
 };
 
-const Book = ({ title, date, excerpt, to, color }) => {
-    const colorClass = colors[color].color ?? brown;
-    const [FlourishComponent, FlourishHalfComponent] = colors[color]
-        ?.flourish || [Flourish2, Flourish2Half];
+// New register → color + emblem mapping (posts on the `category` field).
+const registers = {
+    devotional: { className: amber, Emblem: FlameFlourish },
+    apologetics: { className: navy, Emblem: ShieldFlourish },
+    response: { className: verdigris, Emblem: QuillFlourish },
+    soapbox: { className: oxblood, Emblem: MegaphoneFlourish },
+    satire: { className: plum, Emblem: JesterFlourish },
+    meta: { className: brown, Emblem: BookPenFlourish },
+};
+
+const Book = ({ title, date, excerpt, to, color, category }) => {
+    const register = (category && registers[category]) || null;
+
+    const colorClass = register
+        ? register.className
+        : colors[color]?.color ?? brown;
+    const FirstFlourish = register
+        ? register.Emblem
+        : colors[color]?.flourish?.[0] ?? Flourish2;
+    const SecondFlourish = register
+        ? register.Emblem
+        : colors[color]?.flourish?.[1] ?? Flourish2Half;
 
     return (
         <Link className={bookLink} to={to}>
             <div className={`${spine} ${colorClass}`}>
                 <div className={firstFlourish}>
-                    <FlourishComponent />
+                    <FirstFlourish />
                 </div>
                 <div className={dateWrapper}>
                     <div className={dateLabel}>{date}</div>
@@ -55,7 +86,7 @@ const Book = ({ title, date, excerpt, to, color }) => {
                     <div className={empty}>{""}</div>
                 </div>
                 <div className={secondFlourish}>
-                    <FlourishHalfComponent />{" "}
+                    <SecondFlourish />
                 </div>
             </div>
         </Link>
