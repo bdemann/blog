@@ -4,5 +4,13 @@
     justify-content: center;
     flex-direction: row;
     height: 100%;
-    color: #c8ae46
+    color: #c8ae46;
+
+    /* grounding: sit the gold into the spine rather than on top of it.
+       Slight transparency lets the cloth gradient modulate the emblem so
+       it follows the spine's curve; the soft emboss reads as stamped in.
+       (The spine's ::after sheen also paints over these, adding the
+       top-light / bottom-shade of the curve.) */
+    opacity: 0.85;
+    filter: drop-shadow(0 1px 0.5px rgba(0, 0, 0, 0.45));
 }

@@ -28,19 +28,9 @@
     box-shadow: 0 13px 20px -6px rgba(0, 0, 0, 0.72);
 }
 
-/* gold foil binding lines along the top & bottom edges (head/tail bands) */
-.spine::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
-    border-top: 2px solid rgba(200, 174, 70, 0.55);
-    border-bottom: 2px solid rgba(200, 174, 70, 0.55);
-    border-radius: inherit;
-}
-
 /* cylindrical sheen: light catches the top edge, shade falls to the
-   bottom — sells the spine as a rounded, raised surface */
+   bottom — sells the spine as a rounded, raised surface. Painted over
+   the emblems too, so they pick up the spine's curve shading. */
 .spine::after {
     content: "";
     position: absolute;
@@ -123,6 +113,7 @@
 .second-flourish {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .first-flourish svg,
 .second-flourish svg {
@@ -215,5 +206,12 @@
 
     .second-flourish {
         display: flex;
+    }
+
+    /* let the bookend flourishes grow and center the emblem in the
+       leftover space instead of leaving it dead at the edges */
+    .first-flourish,
+    .second-flourish {
+        flex: 1;
     }
 }
