@@ -12,7 +12,9 @@
         "start": "gatsby develop",
         "build": "gatsby build",
         "serve": "gatsby serve",
-        "clean": "gatsby clean"
+        "clean": "gatsby clean",
+        "format": "prettier --write \"**/*.{md,mdx}\"",
+        "format:check": "prettier --check \"**/*.{md,mdx}\""
     },
     "dependencies": {
         "gatsby": "^5.13.7",
@@ -25,5 +27,8 @@
         "react": "^18.3.1",
         "react-dom": "^18.3.1",
         "remark-gfm": "^4.0.0"
+    },
+    "devDependencies": {
+        "prettier": "^3.8.5"
     }
 }
