@@ -38,19 +38,19 @@ A description of what actually happens when the bug occurs.
 
 <!-- If applicable, add screenshots or logs to help explain the problem. -->
 
--   Screenshot of the issue: ![Screenshot](url)
--   Relevant logs (if any):
-    -   Error message or logs
+- Screenshot of the issue: ![Screenshot](url)
+- Relevant logs (if any):
+  - Error message or logs
 
 ## Environment
 
 <!-- Provide details about the environment in which the bug was found. -->
 
--   OS: [e.g., macOS, Windows, Linux]
--   Browser: [e.g., Chrome, Firefox, Safari] (if applicable)
--   Node.js version: [e.g., v14.x.x]
--   Project version: [e.g., v1.0.0]
--   Other relevant dependencies or versions: [e.g., Gatsby v4.0.0]
+- OS: [e.g., macOS, Windows, Linux]
+- Browser: [e.g., Chrome, Firefox, Safari] (if applicable)
+- Node.js version: [e.g., v14.x.x]
+- Project version: [e.g., v1.0.0]
+- Other relevant dependencies or versions: [e.g., Gatsby v4.0.0]
 
 ## Possible Fix (Optional)
 
@@ -62,4 +62,5 @@ A brief description of a potential solution if known.
 
 <!-- Add any other context about the problem here. -->
 
-Include any other relevant details, such as related issues, recent changes in the codebase, or links to documentation or commits that could be helpful.
+Include any other relevant details, such as related issues, recent changes in
+the codebase, or links to documentation or commits that could be helpful.
